@@ -533,7 +533,7 @@ margin: 0%;
         /* border-top: 5px solid rgba(250,250,250,1); */
 }
 .body {
-    /* background-image: url('happy.jpg' ); */
+    /* background-image: url('imgs/happy.jpg' ); */
 /* filter: invert(); */
 
     background-repeat: no-repeat;
@@ -1356,7 +1356,7 @@ footer {
     }
     .body {
         background-color: rgba(0,0,0,1);
-        background-image: url('happy.jpg' );
+        background-image: url('imgs/happy.jpg' );
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: 100%;
@@ -1544,7 +1544,7 @@ footer {
         padding: 0;
     }
     .big-body {
-        /* background-image: url('happy.jpg' ); */
+        /* background-image: url('imgs/happy.jpg' ); */
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: cover;
@@ -1641,7 +1641,7 @@ footer {
         animation-duration: 30s;
         animation-delay: 0s;
         background-color: rgba(0,0,0,1);
-        background-image: url('happy.jpg' );
+        background-image: url('imgs/happy.jpg' );
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: 100%;
@@ -1769,7 +1769,7 @@ footer {
         padding: 0;
     }
     .big-body {
-        background-image: url('happy.jpg' );
+        background-image: url('imgs/happy.jpg' );
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: cover;
@@ -1997,7 +1997,7 @@ footer {
         padding: 0;
     }
     .big-body {
-        background-image: url('happy.jpg' );
+        background-image: url('imgs/happy.jpg' );
         background-repeat: no-repeat;
         background-position: 0 0;
         background-size: cover;
