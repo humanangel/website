@@ -521,7 +521,7 @@ margin: 0%;
   
     filter:grayscale(); 
     /* background: rgba(0,0,0,.0); */
-        background-image: url('imgs/happy.jpg' );
+        background-image: url('../imgs/happy.jpg' );
         animation-name: animate-scroll;
         animation-duration: 15s;
         animation-delay: 0s;
