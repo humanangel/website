@@ -106,7 +106,7 @@ font-family: sans-serif;
 }
 
 header {
-    width: auto%;
+    width: auto;
     padding: 0%;
 margin: 2% 2% 0%;
     height: 500px;
@@ -128,7 +128,7 @@ margin: 0%;
     
     filter:grayscale(); 
     /* background: rgba(0,0,0,.0); */
-        background-image: url('../imgs/happy.jpg' );
+        background-image: url('../imgs/happy-flipped.jpg' );
         animation-name: animate-scroll;
         animation-duration: 15s;
         animation-delay: 0s;
