@@ -1,0 +1,310 @@
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: ghostwhite;
+    margin: 0%;
+    color: rgba(80,80,80,1);
+    /* height: 100%;
+    width: 100%;
+    padding: 0%; */
+    font-size: 16px;
+font-family: sans-serif;
+}
+
+.human-angel-logo {
+    position: absolute;
+    /* transform: scale(.51,.51); */
+    width: 190px;
+    z-index: 9999;
+    top: 11px;
+    left: -8px;
+    transform: rotate(10deg);
+    z-index: 100;
+}
+
+.glossary {
+    position:absolute; background: transparent; top: 1%; float: left; left:1%;  color: indianred; font-size: 11px; font-family: sans-serif; 
+    font-weight: bold;
+    text-transform: uppercase;  
+    }
+#glossary {display: inline; color: seagreen}
+.legalnotices {
+     position:relative; background: transparent; top: 0px; float: right; right:5px;  color: seagreen; font-size: 11px; font-family: sans-serif;    z-index: 200;}
+
+
+     #skip-ada {
+    position: relative;
+    top: 10px;
+    left: 0;
+    display: block;
+    width: 98%;
+    height: 15px;
+    text-align: center;
+    padding: 1%;
+    /* background: linear-gradient(right, black,rgba(205, 92, 92, 0.911) );
+    background: -ms-linear-gradient(right, black,rgba(205, 92, 92, 0.911 ));
+    background: -webkit-linear-gradient(right,black,rgba(205, 92, 92, 0.911 ));
+    background: -moz-linear-gradient(right, black,rgba(205, 92, 92, 0.911)); */
+    background: mediumseagreen;
+    border-bottom: 4px solid white; 
+    overflow: hidden;
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+    z-index: 100;
+}
+
+#skip-ada a {color: white}
+.topnav {
+    background-color: mediumseagreen;
+    /* top:30px; */
+    text-align: right;
+    right: 0px;
+    bottom: 0px;
+    width: 98%;
+    padding: 1%;
+    /* margin-right: 5px; */
+    z-index: 9999;
+    position: fixed;
+    /* border-radius: 0px; */
+}
+.topnav a {
+    float:left;
+    display: block;
+    color: saddlebrown;
+    text-align: right;
+    /* padding: 5px; */
+    margin: 0% 0%;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight:bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.topnav a:hover {
+    background-color: saddlebrown;
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+.menu {
+    width: 13%;
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
+}
+
+header {
+    width: auto%;
+    padding: 0%;
+margin: 2% 2% 0%;
+    height: 500px;
+    display: block;
+  position: relative;
+
+
+        /* border-top: 5px solid rgba(250,250,250,1); */
+}
+
+.window {
+    width: auto;
+    padding: 0%;
+margin: 0%;
+    height: 500px;
+    display: block;
+  position: relative;
+
+    
+    filter:grayscale(); 
+    /* background: rgba(0,0,0,.0); */
+        background-image: url('../imgs/happy.jpg' );
+        animation-name: animate-scroll;
+        animation-duration: 15s;
+        animation-delay: 0s;
+        background-origin: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: 0 -530px;
+        background-size:100%;
+ 
+}
+
+.job {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left:15px;
+    width:auto;
+    color: white;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 0px;
+    border-top: 0px solid white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transform: rotate(10deg);
+    font-family: helvetica;
+    line-height: 2;
+    z-index: 1000;
+}
+
+.full {
+    width: 98%;
+    padding: 1%;
+    margin: 0 auto;
+    height: 175px;
+    color: ghostwhite;
+    background: linear-gradient(rgba(0,0,0,.9),transparent);
+
+}
+
+.full > h1 {
+    width: 40%;
+    float: left;
+    display: block;
+  }
+  .full > p {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+.half {
+    width: 94%;
+    padding: 1%;
+    margin: 1% 1%;
+    overflow: hidden;
+    display: block;
+    float: left;
+    background: white;
+}
+iframe {
+    transform: scale(1);
+    border: none;
+    width: 100%;
+    background-color: ghostwhite;
+}
+.special {
+
+    font-size: 8.5rem;
+    color: rgba(255, 255, 255, 0.713);
+    position: relative;
+    top: -9rem;
+    margin: 0px;
+    text-transform: uppercase;
+    left: 0px;
+/* outline:0px 0px 2px saddlebrown; */
+}
+
+#ideate {position: absolute}
+.half p {
+    padding: 1%;
+}
+.claims {
+    display: block;
+        width: 70%;
+    margin: 3% auto;
+}
+
+.flavors {
+    display: block;
+        width: 60%;
+    margin: -3% auto 2%;
+    /* background: linear-gradient( rgba(50,50,50,.9), black); */
+    text-align: center;
+    position: relative;
+    height: auto;
+    padding: 1%;
+  
+    top: 2rem;
+    /* box-shadow: 0px 2px 2px mediumseagreen; */
+ /* background: indianred; */
+ /* filter: grayscale(); */
+ z-index:0;
+}
+
+.flavors  h6 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    /* width: 20%;  */
+    float: left;
+    display: block;
+    width: 35%;
+font-size: 3.5em;
+padding: 2%;
+}
+.flavors span  {
+    /* font-size: 14rem; */
+    margin: 0;
+    text-transform: uppercase;
+
+    height: auto;
+    font-family: sans-serif;
+    /* background: mediumseagreen; */
+    padding: 2%;
+    color: saddlebrown;
+    font-size: 9em;
+    letter-spacing: 4px;
+width: 98%;
+padding: 1%;
+
+background: transparent;
+
+font-weight: 900;
+
+position: relative;
+}
+.flavors p {
+font-size: 1em;
+display: block;
+width: auto;
+float: left;
+margin-left: 2%;
+text-align: left;
+}
+
+footer {
+    display: flow-root;
+    background: black; 
+    color: white;
+width: 100%}
+
+#footer_about {
+    border-left: 1px solid grey;
+    padding-left: 2%;
+    width: 20%;
+    float: left;
+    display: block;
+    margin-left: 3%;
+    font-size: 11px;
+    font-family: helvetica;
+    overflow: hidden;
+}
+#footer_image {
+    width: 20%;
+    float: left;
+    display: block;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+#footer_diy_resources {
+    background: none;
+    width: 25%;
+    float: left;
+    display: block;
+    font-size: 11px;
+    font-family: helvetica;
+}

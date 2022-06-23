@@ -274,7 +274,7 @@ main {
     background: white;
 }
 iframe {
-    transform: scale(.7);
+    transform: scale(1);
 
     width: 100%;
 
