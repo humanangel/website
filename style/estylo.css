@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: white;
     margin: 0%;
     color: rgba(80,80,80,1);
     /* height: 100%;
@@ -22,13 +22,15 @@ font-family: sans-serif;
 .human-angel-logo {
     position: absolute;
     /* transform: scale(.51,.51); */
-    width: 190px;
-    z-index: 9999;
-    top: 11px;
-    left: -8px;
+    width: 200px;
     transform: rotate(10deg);
-    z-index: 100;
+    top: 100px;
+    left: 19px;
+
+    z-index: 300;
+  
 }
+.human-angel-logo > img {width: 100%}
 
 .glossary {
     position:absolute; background: transparent; top: 1%; float: left; left:1%;  color: indianred; font-size: 11px; font-family: sans-serif; 
@@ -37,7 +39,7 @@ font-family: sans-serif;
     }
 #glossary {display: inline; color: seagreen}
 .legalnotices {
-     position:relative; background: transparent; top: 0px; float: right; right:5px;  color: seagreen; font-size: 11px; font-family: sans-serif;    z-index: 200;}
+     position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px; font-family: sans-serif;    z-index: 200;}
 
 
      #skip-ada {
@@ -53,16 +55,16 @@ font-family: sans-serif;
     background: -ms-linear-gradient(right, black,rgba(205, 92, 92, 0.911 ));
     background: -webkit-linear-gradient(right,black,rgba(205, 92, 92, 0.911 ));
     background: -moz-linear-gradient(right, black,rgba(205, 92, 92, 0.911)); */
-    background: mediumseagreen;
-    border-bottom: 4px solid white; 
+    border-top: 6px double mediumseagreen;
+    /* border-bottom: 4px solid white;  */
     overflow: hidden;
-    color: white;
-    font-size: 1em;
-    font-family: sans-serif;
-    z-index: 100;
+  
+    /* font-size: 1em;
+    font-family: sans-serif; */
+    /* z-index: 100; */
 }
 
-#skip-ada a {color: white}
+#skip-ada a {  color: indianred;}
 .topnav {
     background-color: mediumseagreen;
     /* top:30px; */
@@ -164,20 +166,30 @@ margin: 0%;
     width: 98%;
     padding: 1%;
     margin: 0 auto;
-    height: 175px;
+    height: 128px;
     color: ghostwhite;
-    background: linear-gradient(rgba(0,0,0,.9),transparent);
+    background: linear-gradient( to left, rgba(0,0,0,.5) ,rgba(0,0,0,.9));
+    position: relative;
 
 }
 
 .full > h1 {
     width: 40%;
     float: left;
+    text-align: right;
+    position: absolute;
+    top:-48px;
+    font-size: 3rem;
+    color:ghostwhite;
+    padding-right: 10px;
     display: block;
   }
   .full > p {
     width: 50%;
-    float: left;
+    position: absolute;
+    float: right;
+    top: 20px;
+    left: 45%;
     display: block;
   }
 .half {
@@ -197,13 +209,13 @@ iframe {
 }
 .special {
 
-    font-size: 8.5rem;
+    font-size: 5rem;
     color: rgba(255, 255, 255, 0.713);
     position: relative;
-    top: -9rem;
+    top: -6rem;
     margin: 0px;
     text-transform: uppercase;
-    left: 0px;
+    left: 20px;
 /* outline:0px 0px 2px saddlebrown; */
 }
 
