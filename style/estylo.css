@@ -8,10 +8,11 @@ html {
     padding: 0%;
 }
 
+*{font-family: sans-serif;}
 body {
-    background-color: white;
+    /* background-color: black; */
 /*NIGHT VISION*/
-    background-color: rgba(251,251,251,1);
+    background-color: rgba(255, 255, 255, 0.932);
     margin: 0%;
     /* filter:invert(); */
     color: rgba(80,80,80,1);
@@ -28,8 +29,8 @@ font-family: sans-serif;
     /* transform: scale(.51,.51); */
     width: 200px;
     transform: rotate(10deg);
-    top: 85px;
-    left: 10px;
+    top: 90px;
+    left: 20px;
     z-index: 300;
   
 }
@@ -62,7 +63,7 @@ opacity:1;
     background: -ms-linear-gradient(right, black,rgba(205, 92, 92, 0.911 ));
     background: -webkit-linear-gradient(right,black,rgba(205, 92, 92, 0.911 ));
     background: -moz-linear-gradient(right, black,rgba(205, 92, 92, 0.911)); */
-    background: seagreen;
+    background: linear-gradient( to left, slategrey ,transparent);
     /* border-bottom: 4px solid white;  */
     overflow: hidden;
   
@@ -118,7 +119,7 @@ opacity:1;
     0% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid red; */
+        /* border: 1px solid red; */
         background: red;
         left: 0%;
         top: 0%;
@@ -126,7 +127,7 @@ opacity:1;
     12% {
         width: 100px;
         height: 1px;
-        /* border: 5px solid red; */
+        /* border: 1px solid red; */
         background: red;
         left: 50%;
         top: 0%;
@@ -135,7 +136,7 @@ opacity:1;
        
         width: 1px;
         height: 1px;
-        /* border: 5px solid orange; */
+        /* border: 1px solid orange; */
         background:  orange;
         left: 99%;
         top: 0%;
@@ -143,7 +144,7 @@ opacity:1;
     25% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid orange; */
+        /* border: 1px solid orange; */
         background:  orange;
         left: 99%;
         top: 0%;
@@ -151,7 +152,7 @@ opacity:1;
     26% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid orange; */
+        /* border: 1px solid orange; */
         background:  orange;
         left: 98%;
         top: 0%;
@@ -159,7 +160,7 @@ opacity:1;
     37% {
        width:1px;
         height: 100px;
-        /* border: 5px solid red; */
+        border: 1px solid red;
         background: orange;
         left: 98%;
         top: 50%;
@@ -167,7 +168,7 @@ opacity:1;
     49% {
         width:1px;
         height: 1px;
-        /* border: 5px solid yellow; */
+        border: 1px solid yellow;
         background:  yellow;
         left: 98%;
         top: 99%;
@@ -175,7 +176,7 @@ opacity:1;
     50% {
         width:1px;
         height: 1px;
-        /* border: 5px solid yellow; */
+        border: 1px solid yellow;
         background:  yellow;
         left: 98%;
         top: 99%;
@@ -183,7 +184,7 @@ opacity:1;
     51% {
         width:1px;
         height: 1px;
-        /* border: 5px solid yellow; */
+        border: 1px solid yellow;
         background:  yellow;
         left: 98%;
         top: 99%;
@@ -191,7 +192,7 @@ opacity:1;
     62% {
         width: 100px;
         height: 1px;
-        /* border: 5px solid red; */
+        border: 1px solid red;
         background: yellow;
         left: 50%;
         top: 99%;
@@ -199,7 +200,7 @@ opacity:1;
     74% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid green; */
+        border: 1px solid green;
         background:  green;
         left: 0%;
         top: 99%;
@@ -207,7 +208,7 @@ opacity:1;
     75% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid green; */
+        border: 1px solid green;
         background:  green;
         left: 0%;
         top: 99%;
@@ -215,7 +216,7 @@ opacity:1;
     76% {
         width: 1px;
         height: 1px;
-        /* border: 5px solid green; */
+        border: 1px solid green;
         background:  green;
         left: 0%;
         top: 99%;
@@ -223,7 +224,7 @@ opacity:1;
     87% {
         width: 1px;
         height: 100px;
-        /* border: 5px solid red; */
+        /* border: 1px solid red; */
         background: green;
         left: 0%;
         top: 50%;
@@ -246,137 +247,6 @@ opacity:1;
     }
 }
 
-@keyframes animate-move2 {
-    0% {
-        width: 1px;
-        height: 1px;
-        /* border: 5px solid red; */
-        background: red;
-        left: 98%;
-        top: 98%;
-    }
-    12% {
-        width: 100px;
-        height: 1px;
-        /* border: 5px solid red; */
-        background: red;
-        left: 50%;
-        top: 98%;
-    }
-    24% {
-       
-        width: 2px;
-        height: 1px;
-        /* border: 5px solid orange; */
-        background:  orange;
-        left: 0%;
-        top: 98%;
-    }
-    25% {
-        width: 3px;
-        height: 1px;
-        /* border: 5px solid orange; */
-        background:  orange;
-        left: 0%;
-        top: 98%;
-    }
-    26% {
-        width: 2px;
-        height: 2px;
-        /* border: 5px solid orange; */
-        background:  orange;
-        left: 0%;
-        top: 98%;
-    }
-    37% {
-       width:1px;
-        height: 100px;
-        /* border: 5px solid red; */
-        background: orange;
-        left: 0%;
-        top: 50%;
-    }
-    49% {
-        width:2px;
-        height: 2px;
-        /* border: 5px solid yellow; */
-        background:  yellow;
-        left: 0%;
-        top: 0%;
-    }
-    50% {
-        width:3px;
-        height: 3px;
-        /* border: 5px solid yellow; */
-        background:  yellow;
-        left: 0%;
-        top: 0%;
-    }
-    51% {
-        width:2px;
-        height: 2px;
-        /* border: 5px solid yellow; */
-        background:  yellow;
-        left: 0%;
-        top: 0%;
-    }
-    62% {
-        width: 100px;
-        height: 1px;
-        /* border: 5px solid red; */
-        background: yellow;
-        left: 50%;
-        top: 0%;
-    }
-    74% {
-        width:3px;
-        height: 3px;
-        /* border: 5px solid green; */
-        background:  green;
-        left: 98%;
-        top: 0%;
-    }
-    75% {
-        width:3px;
-        height: 3px;
-        /* border: 5px solid green; */
-        background:  green;
-        left: 98%;
-        top: 0%;
-    }
-    76% {
-        width:3px;
-        height: 3px;
-        /* border: 5px solid green; */
-        background:  green;
-        left: 98%;
-        top: 0%;
-    }
-    87% {
-        width: 1px;
-        height: 100px;
-        /* border: 5px solid red; */
-        background: green;
-        left:98%;
-        top: 50%;
-    }
-    99% {
-        width:3px;
-        height: 3px;
-        /* border-top: 5px solid blue; */
-        background: blue;
-        left: 98%;
-        top: 98%;
-    }
-    100% {
-        width:3px;
-        height: 3px;
-        /* border-top: 5px solid blue; */
-        background: blue;
-        left: 98%;
-        top: 98%;
-    }
-}
 
 @keyframes animate-scroll {
     0% {
@@ -478,9 +348,9 @@ margin: 2% 2% 0%;
 }
 .window {
     width: auto;
-    padding: 0px  15px 0px 6px;
+    padding: 5px 27px 0px 5px;
 margin: 0%;
-    height: 500px;
+    height: 520px;
     display: block;
   position: relative;
   opacity:1;
@@ -493,7 +363,7 @@ margin: 0%;
     width: auto;
     padding: 1%;
 margin: 0% auto;
-    height: 500px;
+    height: 490px;
     display: block;
   position: relative;
   opacity:1;
@@ -506,7 +376,7 @@ margin: 0% auto;
     background-position: 0 -470px;
     background-size:100%;
     z-index:-1;
-
+   /* filter:invert();  */
 }
 .job {
     display: block;
@@ -534,11 +404,32 @@ margin: 0% auto;
     width: 98%;
     padding: 1%;
     margin: 0 auto;
-    height: 138px;
+    height: 127px;
     color: ghostwhite;
-    background: linear-gradient( to right, seagreen ,transparent);
+    background: linear-gradient( to right, slategrey ,transparent);
     position: relative;
+    top:30px;
+    margin-bottom: 30px;
+}
+#ideate {position: absolute; color:rgba(0,0,0,.9)}
 
+.special {
+/* stroke:1px solid aqua; */
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.4713);
+    /* color: red; */
+    position: relative;
+    top: -24rem;
+    margin: 0px;
+    display: inline;
+    line-height: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    left: 30px;
+    letter-spacing: 0px;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.14713);
+    /* text-decoration: underline yellow ; */ 
+/* outline:0px 0px 2px saddlebrown; */
 }
 
 .full > h1 {
@@ -546,12 +437,13 @@ margin: 0% auto;
     float: left;
     text-align: right;
     position: absolute;
-    top:-48px;
+    top:-10px;
     font-size: 3rem;
     color:ghostwhite;
     left: -1%;
     display: block;
   }
+  
   .full > p {
     width: 55%;
     position: absolute;
@@ -571,26 +463,19 @@ margin: 0% auto;
     background: white;
 }
 iframe {
-    transform: scale(1);
+    transform: scale(.9);
     border: none;
     width: 100%;
     background-color: ghostwhite;
+    border:none; 
+    height:700px;
+    overflow: hidden;
 }
-.special {
+section	{margin: 0px auto; display: block; width: 98%;padding:1%;  height: auto; }
+.ha-iframe > nav{margin: auto;
+ width: 63%;position:relative; height: auto;padding:0%}
 
-    font-size: 4rem;
-    color: rgba(255, 255, 255, 0.14713);
-    position: relative;
-    top: -5rem;
-    margin: 0px;
-    text-transform: uppercase;
-    left: 20px;
-    letter-spacing: 0px;
-    text-shadow: 0px 0px 0px ghostwhite;
-/* outline:0px 0px 2px saddlebrown; */
-}
 
-#ideate {position: absolute; color:rgba(0,0,0,.9)}
 .half p {
     padding: 1%;
 }
@@ -659,11 +544,87 @@ margin-left: 2%;
 text-align: left;
 }
 
+
+button {
+    text-transform: uppercase;
+    padding: 1%;
+    margin: 0px auto 10px;
+    width: 33%;
+    border: none;
+    display: block;
+    float: left;
+    /* margin-left: 10px; */
+    background: transparent;
+    color: goldenrod;
+    font-family: helvetica;
+    font-size: 20px;
+    height:auto;
+    /* text-decoration: underline greenyellow; */
+    }
+
+    
+    .bodyblue 	{background: ghostwhite)}
+    .bodyblack 	{background: rgba(0,0,0,.15)}
+    .bodywhite 	{background: rgba(255,255,255,.15)}
+    .bodygoldenrod 	{background: goldenrod}
+    .bodypic {background: rgba(10,10,10,.15);}
+    .bodypic2 {background: rgba(246,55,95,.19);}
+    .bodypic3 {background: rgba(0,255,0,.15);}
+    .bodypic4 {background: rgba(255, 253, 253, 0.15);}
+    
+    .red{background:red}
+    .green {background:green}
+    .orange {background:rgba(255, 166, 0, 0.287)}
+    .brown {background:brown}
+    .yellow {background:yellow}
+    /* #logo	{margin: 0; padding: 0; display: block; width: 25%; float: left; height: 108px} */
+    /* nav		{margin: 0; padding: 0; display: block; width: 75%; float: left;}
+    nav > div 		{width: 100%; margin-left:0%; display: block; float: left;position: relative;}
+    nav > div > li		{width: 100%; display: block; float: left;} */
+
+    article > h1 { width: 100%; float:left; display: block; margin: 0 auto; font-size: 30px; font-family: impact; text-transform:uppercase; color:goldenrod;}
+    article > p  { width:  98%; margin: 0; padding: 1%; display: block; float: left; font-size: 16px; font-family: georgia; color: grey;}
+    article > aside {width: 28%; margin: 0; padding: 1%;display: block; float: left; font-size: 12px;  color: black; }
+    ul 		{background: rgba(0,0,0,0);padding:1px; margin:1px;width: auto; display: block; float: left; border:0px solid black; position: relative;top:5px;}
+     li {list-style-type:none;display: block; float: left; padding: 1px; margin-right:5%;}
 footer {
     display: flow-root;
     background: black; 
     color: white;
 width: 100%}
+
+
+fieldset {padding: 5px;
+    border: none;
+    margin: auto;
+    width: 70%;
+    font-size: 2em;
+}
+
+fieldset > label > input{
+    font-size: 20px;
+padding: 1%;
+border-radius: 9px;
+border: none;
+width: 70%;
+}
+
+#fsend {
+    text-transform: uppercase;
+    padding: 1%;
+    margin: 4% auto 1%;
+    width: 95%;
+    border-radius:15px;
+    border: none;
+    display: block;
+    float: left;
+ box-shadow: 0px 1px 3px white;
+    background: indianred;
+    color: white;
+    font-family: helvetica;
+    font-size: 1em;
+    height:auto;
+    }
 
 #footer_about {
     border-left: 1px solid grey;
@@ -691,3 +652,4 @@ width: 100%}
     font-size: 11px;
     font-family: helvetica;
 }
+
