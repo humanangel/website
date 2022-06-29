@@ -1,131 +1,187 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title> Human Angel Tech - Our Policies  </title>
+		<title> Human Angel Tech - WeBHelp  </title>
 		<meta  charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="The official website of Human Angel Technologies"/>
-		<meta name="keywords" content="Human Angel Technologies, David Kene"/>
+		<meta name="keywords" content="Human Angel Technologies, Human Angel Inc."/>
 		<meta name="author" content="David Kene"/>
 		<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139045399-1"></script> -->
 		<link rel="stylesheet" type="text/css" href="style/estylo.css" title="humanAngel"/>
-		<!-- <link rel="stylesheet" type="text/css" href="style/style.css" title="humanAngel"/> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
-		<!-- <script src="test-angular.js"></script> -->
 		<script> 
 			var action = angular.module('actions', []);
 			action.controller('theController', function()
 			{var self = this;
-			
-			self.click1 ={name:'Play a \'game\'',
-						header:'this is the header for click1', 
-						text: 'this is the text for click1',
-						asideText:'this is the aside text for click1',
-						suboption:['RANDOM BIAS BUSINESS CHECKER','','INNER COORDINATES']	    
-					   };
-			self.click2 ={name:'Play a game',
-					   header:'this is the header for click2', 
-					   text: 'this is the text for click2',
-					   asideText:'this is the aside text for click2',
-						suboption:['No.2','No.22','No.222','No.2222']	 
-					   };
-			self.click3 ={name:'Learn to Code',
-					   header:'' , 
-					   text: 'this is the text for click3',
-					   asideText:'this is the aside text for click3',
-						suboption:['No.33','No.333']	 
-					   };
-			self.click4 ={name:'practice security',
-						header:'this is the header for click4', 
-						text: 'this is the text for click4',
-						asideText:'this is the aside text for click4',
-						suboption:['No.44','No.444']	 
-					   };
-			self.click5 = {name:'click5',
-						 header:'this is the header for click5', 
-						 text: 'this is the text for click5',
-						 asideText:'this is the aside text for click5',
-						suboption:['No.55']
-						};	 
-   		   
-			
-			
-			self.userClick1 = function()
-				{
-					self.isPressed1 =true;
-					self.isPressed2 =false;
-					self.isPressed3 =false;
-					self.isPressed4 =false;
-					self.isPressed5 =false;
-					self.isPressed6 =false;
-					self.isPressed7 =false;
-				};
-			
-			self.userClick2 = function()
-				{
-					self.isPressed1 =false;
-					self.isPressed2 =true;
-					self.isPressed3 =false;
-					self.isPressed4 =false;
-					self.isPressed5 =false;
-					self.isPressed6 =false;
-					self.isPressed7 = false;
-			};
-			
-			self.userClick3 = function()
-				{
-					self.isPressed1 = false;
-					self.isPressed2 = false;
-					self.isPressed3 = true;
-					self.isPressed4 = false;
-					self.isPressed5 = false;
-					self.isPressed6 = false;
-					self.isPressed7 = false;
-			};
-			
-			self.userClick4 = function()
-				{
-					self.isPressed1 = false;
-					self.isPressed2 = false;
-					self.isPressed3 = false;
-					self.isPressed4 = true;
-					self.isPressed5 = false;
-					self.isPressed6 = false;
-					self.isPressed7 = false;
-				};
-														  
-			});
-			</script>
+				self.click1 ={name:'Play a game',
+							header:'this is the header for click1', 
+							text: 'this is the text for click1',
+							asideText:'this is the aside text for click1',
+							suboption:['RANDOM BIAS BUSINESS CHECKER','','INNER COORDINATES']	    
+						};
+				self.click3 ={name:'Learn to Code',
+						header:'' , 
+						text: 'this is the text for click3',
+						asideText:'this is the aside text for click3',
+							suboption:['No.33','No.333']	 
+						};
+				self.click4 ={name:'practice security',
+							header:'this is the header for click4', 
+							text: 'this is the text for click4',
+							asideText:'this is the aside text for click4',
+							suboption:['No.44','No.444']	 
+						};
+				self.userClick1 = function()
+					{
+						self.isPressed1 =true;
+						self.isPressed3 =false;
+						self.isPressed4 =false;
+					};	
+				self.userClick3 = function()
+					{
+						self.isPressed1 = false;
+						self.isPressed3 = true;
+						self.isPressed4 = false;
+					};	
+				self.userClick4 = function()
+					{
+						self.isPressed1 = false;
+						self.isPressed3 = false;
+						self.isPressed4 = true;
+					};												  
+				});
+		</script>
+		<script>
+			glossary =[
+		/*4*/	a=["ALGORITHM: a sequence of instructions","ANGLE BRACKETS: <> used in HTML tags","American Standard Code for Information Interchange (ASCII)","Availability: One of the three components of data security"],
+		/*3*/	b= ["BIT: a binary digit either 0 or 1","BYTE: A collection of 8 bits","BLACK HAT: a racially charged reference to malicious hackers"],
+		/*4*/	c= ["CACHE: temporary storage used to increase perceived computer performance","Cracker: a person who \'breaks into\' digital systems without authorization","Cybersecurity Information Security Agency (CISA)","curly brackets: {} braces used for objects in many programming languages"],
+		/*3*/	d= ["DAEMON: a hidden or background program","DATA: a single fact used to construct information","Domain Name Server \(DNS\) translates numeric IP addresses to meaningful URLs"],
+		/*4*/	e= ["ECMASRIPT: aka javascript, the most popular web scripting language","ELEPHANT\'S EAR: aka the @ symbol","End User License Agreement \(EULA\)","Electronic Frontier Foundation \(EFF\)"],
+		/*2*/	f= ["FIBER OPTICS: thin glass fibers that transmit light as data","Family Online Safety Institute (FOSI)"],
+		/*3*/	g= ["Graphics Interchange Format \(GIF\)","GEOLOCATION: Earth location via IP adresses or satellite GPS","GATEWAY: Link between two computers or routers"],
+		/*4*/	h= ["HASHTAG: # aka the pound symbol","Hypertext Markup Language \(HTML\)","HERTZ: A unit of frequency for speed","HEXADECIMAL: Base of 16 used to translate binary code"],
+		/*2*/	i= ["Internet Assigned Numbers Authority \(IANA\)","Internet Corporation of Assigned Names and Numbers \(ICANN\)"],
+		/*2*/	j= ["Javascript Object Notation \(JSON\)","Joint Photographic Experts Group \(JPEG\)"],
+		/*2*/	k= ["KB: 1024 data bytes aka Kilobytes","KERBEROS: A 3-step, ticket-based authentication tool"],
+		/*3*/	l= ["light Emitting Diode \(LED\)","Liquid Crystal Display \(LCD\)","Local Access Network \(LAN\)"],
+		/*4*/	m= ["MODULO: The remainder of a division problem","MACHINE LEARNING: programming computers to find patterns","Media Access Control \(MAC\)","MAYFIRST: A nonprofit hosting cooperative"],
+		/*2*/	n= ["Network Acces Point \(NAP\) ","National Institute for Standards and Technology (NIST)"],
+		/*3*/	o= ["OPEN SOURCE: software that allows contributions, with caveats","OLAP: A big data processing tool","Open systems Interconnected \(OSI/ISO\)"],
+		/*4*/	p= ["Post Office Protocol \(POP\)","peer to peer \(P2P\)","PHP Hypertext Processor \(PHP\)","Personal Computer \(PC\)"],
+		/*2*/	q= ["Quick Response Code \(QR\)", "QUERY LANGUAGE: search expressions in a database"],
+		/*4*/	r= ["R: open source software for statistics","Redundant Array of Independent Disks \(RAID\)","Random Access Memory \(RAM\)","Rivest-Shamir-Adleman Encryption \(RSA\)"],
+		/*3*/	s= ["Software as a Service \(SAAS\)","Simple Mail Transfer Protocol \(SMTP\)","Scalable Vecor Graphic \(SVG\)"],
+		/*4*/	t= ["Tag Image File Format \(TIFF\)","TERMINAL: Text-based input/outut command line tool","Top Level Domain \(TLD\)","Transport Control Protocol/Internet Protocol \(TCP/IP\)"],
+		/*2*/	u= ["User Interface / User eXperience \(UI/UX\)","Uniform Resource Locator \(URL\)"],
+		/*2*/	v= ["VIRUS: A malicious, self-replicating code","Video over Internet Protocol \(VoIP\)"],
+		/*2*/	w= ["Wireless Access Network \(WAN\)","Wireless Fidelity \(Wi-Fi\)"],
+		/*1*/	x= ["eXtensible Markup Language \(XML\)"],
+		/*1*/	y= ["Y: online abbreviation for why"],
+		/*1*/	z= ["ZERO DAY: The day before or of a novel software attack"]
+		/*=70*/		]
+			function scripT() {
+				gterm = document.getElementById('glossary');
+				gterm.innerHTML = glossary[Math.floor(Math.random()*25)][Math.floor(Math.random()*2)]
+				}
+		</script>
 	</head>
-	<body onload ="scripT()" ng-app="actions" ng-controller="theController as boss" ng-class="{bodypic4:boss.isPressed1,bodypic3:boss.isPressed2,bodywhite:boss.isPressed3,bodypic2:boss.isPressed4,bodypic:boss.isPressed5,green:boss.isPressed6,orange:boss.isPressed7,brown:boss.isPressed8,yellow:boss.isPressed9}">
-	
+	<body onload ="scripT()" ng-app="actions" ng-controller="theController as boss" ng-class="{boss.isPressed1,bodywhite:boss.isPressed3,bodypic2:boss.isPressed4}">
 <!--1--><div class="human-angel-logo"> 
-	<img  alt=" " title="Human Angel Tech: we 'b' helpers" src="logos/white.svg" />
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 			width="441px" height="166.08px" viewBox="0 0 441 166.08" enable-background="new 0 0 441 166.08" xml:space="preserve">
+				<path class="path1" d="M0.356,0c78.784,0,157.578,0,236.36,0c0,28,0,56,0,84c-78.869,0-157.728,0-236.598,0
+	c0-27.76,0-55.52,0-83.279C0.099,0.379,0.08,0.041,0.356,0z M50.292,47.75c-6.702-0.736-15.481,1.007-21.4-0.96
+	c0-7.681,0-24.95,0-32.63c-4.597,0-9.195,0-13.792,0c-0.521,19.314-0.521,39.154-0.476,59.04c4.756,0,9.512,0,14.268,0
+	c0.105-3.092-0.017-7.223-0.051-9.16c-0.01-0.548,21.972-0.5,21.927,0.877c-0.087,2.679,0,5.362,0,8.043
+	c4.403,0.518,9.717,0.112,14.505,0.24c0-19.761,0-39.521,0-59.28c-4.756,0-9.512,0-14.267,0
+	C50.378,21.362,51.895,40.742,50.292,47.75z M86.198,14.641c0.963,18.732-3.891,43.213,6.896,52.799
+	c1.479,1.316,3.442,2.183,5.469,3.121c1.738,0.803,4.232,0.956,5.298,2.391c5.608,7.557,12.139,1.807,12.702,0.525
+	c5.796-1.406,12.463-4.973,15.291-9.157c7.743-11.461,2.414-33.619,4.28-50.4c-4.835,0-9.67,0-14.506,0
+	c-0.715,8.152,0.477,18.379,0.477,27.12c0,3.271-2.521,8.666-9.688,10.416c-8.5-0.417-12.456-4.154-12.428-9.456
+	c0.049-9.093,1.009-19.514,0.476-28.08c-4.676,0-9.354,0-14.029,0C86.158,13.961,86.177,14.299,86.198,14.641z M156.107,14.16
+	c-1.184,19.016,0.41,39.418-0.477,58.8c4.201,0,8.402,0,12.604,0c0.529-11.545-0.109-24.271,0.476-35.76
+	c5.073,9.359,16.738,35.673,18.29,35.673c1.54,0,11.521-21.358,14.762-28.713c1.074-2.439,1.815-5.229,3.805-6.721
+	c0.02,11.9,0.396,23.441,0.237,35.521c4.069-0.133,8.683,0.283,12.365-0.238c0.411-19.187,0.181-39.021,0.238-58.562
+	c-5.152,0-10.305,0-15.457,0c-5.697,10.889-10.195,22.989-15.932,33.84c-5.456-10.973-10.251-22.613-15.693-33.6
+				C166.586,13.453,161.416,14.32,156.107,14.16z"/>
+					<rect y="82.986" fill="#FFFFFF" width="236.333" height="1.606"/>
+						<rect x="-137.993" y="-384.91" fill="none" width="439" height="166"/>
+							<rect x="-125.326" y="-401.576" fill="none" width="439" height="166"/>
+								<path class="path2" d="M0.248,84.24c78.785,0,157.578,0,236.359,0c0,27.28,0,54.56,0,81.84c-78.867,0-157.729,0-236.6,0
+								c0-27.04,0-54.08,0-81.12C-0.009,84.62-0.028,84.28,0.248,84.24z M98.167,121.703c-1.173,3.44-4.103,7.739-4.167,11.167
+								c2.9,1.23,11.624-1.725,14.679-0.391c-0.688,0.902-1.883,1.301-3.566,1.201c-0.17,4.326,6.039,2.225,6.896,5.52
+								c-2.297,0.076-3.194-1.256-5.469-1.2c0.306,2.492,4.23,2.606,4.041,4.8c-2.362-0.174-2.437-2.66-4.992-2.64
+								c-0.178,2.42,3.01,2.72,2.615,4.56c-2.235-0.463-2.301-3.119-4.52-3.6c-0.393,1.922,1.203,3.102,0.715,4.32
+								c-1.311-0.357-1.685-1.66-1.666-3.36c-2.338-1.664-3.531-4.485-6.312-5.703c-0.259-0.112-4.465-0.923-4.754-1.007
+								c-0.906,6.125-6.431,11.027-6.167,18.333c0.249-0.003,5.251-0.164,5.5-0.167c13.729-0.115,29.956,0.308,43.333-0.166
+								c0.316-0.012,1.351-0.321,1.667-0.334c-2.955-10.938-6.862-21.924-11-31.666c-0.21,0.064-2.236,0.439-2.443,0.504
+								c-2.917,0.909-5.522,1.82-7.22,3.887c-1.012,1.23-1.125,3.342-3.092,3.6c0.203-1.875,1.924-2.219,1.664-4.561
+								c-2.604,0.25-2.619,3.115-5.707,2.881c0.668-2.207,3.694-2.031,4.043-4.561c-2.552-0.096-3.154,1.775-5.707,1.68
+								c0.735-2.297,3.914-2.129,4.994-4.08c-1.629-0.945-4.469,0.816-5.707-0.479c0.562-1.66,2.84-0.717,4.28-0.96
+								c1.984-0.339,3.156-1.3,3.804-2.642c-1.451-0.535-3.201-0.771-3.328-2.643c4.254-0.107,6.665,4.081,10.305,3.102
+								c0.207-0.058,1.899-0.475,2.114-0.562c-1.077-4.188-0.667-2.166-4.5-12c-1.167-3.333-0.333-6.5-5.542-12.375
+								c-0.303-0.014-0.328-0.309-0.713-0.24C105.5,90.87,101.628,111.558,98.167,121.703z M161.468,153.12c4.438,0,8.877,0,13.316,0
+								c0-11.68,0-23.359,0-35.04c6.295,7.331,12.918,17.522,18.784,26.399c1.382,2.094,4.349,7.701,6.421,8.641
+								c3.951,1.793,7.982-1.26,12.364,0c0-20.16,0-40.32,0-60.48c-4.519,0-9.036,0-13.555,0c-0.152,11.688,0.309,23.992-0.238,35.28
+								c-5.923-7.798-12.616-17.866-18.785-26.64c-1.251-1.779-4.663-8.041-6.657-8.641c-3.604-1.082-7.697,0.82-11.177,0
+								C160.975,111.983,161.685,133.021,161.468,153.12z"/>
+									<g>
+										<path class="path3" d="M275.875,9.29c3.625,0.75,6.375,9.5,7.375,14.125c0.867,4.01,2.777,6.838,3.75,10.625
+										c-1.521,0.529-4.25,1.48-5.5,0.688c-2.704-1.716-5.298-3.022-8.91-2.868c0.296,1.744,2.229,2.08,3.9,2.64
+										c-0.622,1.394-2.191,2.312-4.459,2.64c-1.707,0.248-4.342-0.701-5.016,0.961c1.45,1.296,4.777-0.467,6.688,0.479
+										c-1.159,2.042-5.059,1.725-5.854,4.08c2.989,0.096,3.695-1.776,6.688-1.681c-0.182,2.565-3.824,2.146-4.458,4.32
+										c3.116,0.843,3.543-2.706,6.688-2.64c-0.031,2.133-1.82,2.751-2.229,4.561c2.469-0.246,2.606-2.567,3.901-3.841
+										c2.133-2.102,6.565-3.479,10.309-4.339c4.854,11.036,7.754,18.462,11.428,31.219c-15.928,1.531-33.166,1.072-50.678,0.531
+										c-0.04-7.154,4.273-11.055,5.812-16.852c3.719,1.117,5.237,4.128,8.082,6c0.168,1.536,0.478,2.949,1.947,3.36
+										c0.646-1.282-1.223-2.462-0.835-4.319c2.579,0.498,2.755,3.066,5.294,3.6c0.378-1.769-3.139-2.254-3.062-4.561
+										c2.967,0.006,3.19,2.37,5.853,2.641c0.31-2.27-4.336-2.344-4.737-4.801c2.689-0.076,3.743,1.256,6.408,1.201
+										c-0.898-3.385-8.301-1.171-8.081-5.521c1.874,0.015,3.539-0.152,4.181-1.2c-4.594-1.658-9.578,2.261-12.541-0.24
+										C262.715,36.074,267.375,10.79,275.875,9.29z"/>
+											<path fill="#FFFFFF" d="M274.404,97.88c-14.446,1.283-24.873,16.219-23.777,32.16c0.604,8.775,4.566,15.613,9.036,21.602
+											c5.995,3.601,12.501,9.229,22.353,6.719c3.09-0.784,6.435-2.256,9.512-3.356c3.326-1.188,6.32-2.646,7.607-5.276
+											c-0.328-7.242-0.23-14.97-0.236-22.562c-3.885,0-7.769,0-11.648,0c0,5.04,0,10.08,0,15.119c-2.809,0.619-4.586,2.338-7.371,2.641
+											c-7.322,0.797-12.15-4.361-14.025-9.84c1.971-2.562,6.313-3.42,6.42-6.96c0.109-3.935-4.521-5.082-5.707-8.642
+											c2.586-4.279,6.396-8.131,12.36-8.159c5.824-0.028,9.149,3.682,12.845,6.239c3.004-3.209,5.688-6.739,7.605-11.041
+											C293.305,101.255,285.402,96.903,274.404,97.88z"/>
+												<path fill="#FFFFFF" d="M395.438,99.08c-0.547,19.289-0.082,39.595-0.233,59.278c30.288,0,4.188,0,34.479,0
+												c0-4.642,0-9.278,0-13.92c-7.123-0.09-14.711,0.289-21.161-0.479c0-15.2,0-30.397,0-45.603c-4.278,0-8.562,0-12.84,0
+												C395.398,98.399,395.419,98.739,395.438,99.08z"/>
+													<path fill="#FFFFFF" d="M324.578,157.88c31.129,0,9.531,0,40.661,0c0-4.238,0-8.479,0-12.72c-8.517-0.736-18.832,0.899-26.87-0.722
+													c0-3.278,0-6.562,0-9.84c7.927,0,15.854,0,23.779,0c0-4.16,0-8.318,0-12.479c-8.16,0.155-15.801-0.213-23.779-0.24
+													c0.158-3.7-0.592-6.948,0.238-10.079c8.641,0,17.279,0,25.918,0c0-4.318,0-8.641,0-12.961c-13.077,0-26.156,0-39.233,0
+													C323.887,117.369,324.875,138.258,324.578,157.88z"/>
+														<path fill="#FFFFFF" d="M337.102,17.32c-1.584-2.327-4.295-7.492-6.658-8.4c-4.041-1.553-7.709,1.535-11.889,0.48
+														c0,19.68,0,39.359,0,59.039c4.598,0,9.194,0,13.793,0c0.156-11.04-0.313-22.719,0.236-33.359
+														c5.379,7.61,12.666,16.504,18.548,24.96c1.313,1.89,4.116,7.804,5.944,8.64c3.775,1.727,8.17-1.061,12.363-0.24
+														c0-19.68,0-39.359,0-59.039c-4.521,0-9.035,0-13.556,0c0.021,11.418-0.116,22.999,0.237,34.08
+														C350.124,35.918,343.152,26.201,337.102,17.32z"/>
+										</g>
+			</svg>
 		</div>
 <!-- END HUMAN ANGEL LOGO -->
-<a id="human-angel"></a><div class="glossary">TECH TERM OF THE MOMENT: <div id="glossary">&nbsp;</div></div>
+<a id="human-angel"></a><div class="glossary">✊🏿 TECH TERM OF THE MOMENT <div id="glossary">&nbsp;</div></div>
 <!-- END GLOSSARY -->
-	<!--2--><div class="legalnotices"> <a href="#" title="...">✊🏿</a> Copyright  &#169; 2019–2022 Human Angel Inc.</span> </div>
+	<!--2--><div class="legalnotices">&nbsp; </div>
 <!--COPYRIGHT INFO -->
-<!--3--><div id="skip-ada"><a  class="" href="#human-angel"> Skip to Main Content </a>  </div>
+<!--3--><div id="skip-ada"><a  class="" href="#main"> Skip to Main Content </a>  </div>
 <!-- END WEB ACCESSIBILITY SKIP -->
 <!--4--><nav class="topnav" id="myTopnav" >
 			<a class="colorWhite menu" href="#about">about human angel </a>
-			<a ng-click="boss.userClick1()" class="colorWhite menu" href="process.html">how we work</a>
-			<a ng-click="boss.userClick4()" class="colorWhite menu" href="#resources">&nbsp;cyber tips</a>
-			<a  ng-click="boss.userClick3()" class="colorWhite menu" href="#resources">&nbsp;learn code</a>
-			<a  ng-click="boss.userClick2()" class="colorWhite menu" href="#resources">&nbsp;play a game</a>
+			<a  class="colorWhite menu" href="process.html">how we work</a>
+			<a ng-click="boss.userClick4()" class="colorWhite menu" href="#cyber-tips">&nbsp;cyber tips</a>
+			<a  ng-click="boss.userClick3()" class="colorWhite menu" href="#learn-code">&nbsp;learn code</a>
+			<a ng-click="boss.userClick1()" class="colorWhite menu" href="#playgame">&nbsp;play a game</a>
 			<a class="colorWhite menu" href="#contact">&nbsp;help</a>
-
-	
     	</nav>
-		<a id="main"></a>
 <!-- END NAVIGATION MENU -->
-		<!-- <div class="body body-animate"> &nbsp; </div> -->
 <!--5--><div id="heade">
-
-
-			<span class="job">  &nbsp; A <font color="mediumseagreen">tech</font> consultancy </span>
+			<span class="job">  &nbsp; A <font color="firebrick">tech</font> consultancy<br/> </span>
+			<span class="do">  &nbsp; #<font color="orangered">make</font> <font color="orange">tech</font> </span>
+			<span class="plya">  &nbsp; #<font color="gold"  >Play</font> <font color="yellow"  >tech</font></span>
+			<span class="earnl">  &nbsp; #<font color="seagreen">Learn</font> <font color="green">tech</font> </span>
+			<span class="hash">  &nbsp; #<font color="blue">web</font> <font color="indigo">help</font> </span>			
 			<span class="window">
 				<span id="color1" class="colorwrap"></span>
 				<span class="colorwrap2"></span>
@@ -133,350 +189,179 @@
 				<span class="colorwrap4"></span>
 				<span class="colorwrap5"></span>
 				<span class="happy-work"></span>
-				
-				<!-- <img  alt=" " title="Human Angel Tech: we 'b' helpers" src="imgs/happy.jpg" /> -->
 			</span>
-		
 		</div>
 <!-- END FEATURE IMAGE -->
 <!--6--><main>
 			<h1 id="ideate"><span class="special">Ideate<br/> your<br/> web<br/> thing.</span></h1>
 <!-- END IDEATE WORD -->
-				<article class="full">
-					<h1>Then let's build it<br/>progressively<br/>and together.</h1>
-						<p class="paddy" id="p3"> <mark>Human Angel Tech</mark> offers big-picture strategies on policy and architecture design; detailed-advice on infosec regulatory compliance; custom builds using best practices and clear documentation; technical assistance and technology recommendations; and overall web help and tips.<br/><br/> 💪#humanAngelTech 💻#weBhelp </p>
-				</article>	
+			<article class="full">
+				<a id="main"></a><h1>Then let's build it<br/>progressively<br/>and together.</h1>
+				<p class="paddy" id="p3">
+					<mark>Human Angel Tech</mark> offers big-picture strategies and spot-on advice regarding issues ranging
+					from system architecture design to infosec policy implementations and industry regulatory compliance.
+				    And we always provide web help and tips.<br/><br/> 💪#humanAngelTech 💻#weBhelp </p>
+			</article>	
 		</main>
 <!-- END MAIN MESSAGE -->
-   <!-- <br class="clear"/> -->
 <!--7--><section class="ha-iframe" >
-	<nav>
-		
-			<button  ng-bind="boss.click1.name" ng-click="boss.userClick1()" ></button>
-			<button  ng-bind="boss.click3.name" ng-click="boss.userClick3()" ></button>
-			<button  ng-bind="boss.click4.name" ng-click="boss.userClick4()" ></button>
-			<!-- <button  ng-bind="boss.click5.name" ng-click="boss.userClick5()" ></button> -->
-		
-		 <!-- <ul ng-show="boss.isPressed1 || boss.isPressed6 ||  boss.isPressed7"  >
-			<li ng-click="boss.userClick6()"  >
-			<a href="#" ng-bind="boss.click1.suboption[0]"></a> </li>
-			<li ng-click="boss.userClick7()" >
-			<a href="#" ng-bind="boss.click1.suboption[1]"></a> </li>
-			<li ng-click="" >
-			<a href="#" ng-bind="boss.click1.suboption[2]"></a> </li>
-			<li ng-click="" >
-			<a href="#" ng-bind="boss.click1.suboption[3]"></a> </li>
-		</ul> -->
-		
-		<!-- <ul ng-show="boss.isPressed2" >
-			<li ng-click="" ><a href="#" ng-bind="boss.click2.suboption[0]"></a> </li>
-			<li ng-click="" ><a href="#" ng-bind="boss.click2.suboption[1]"></a> </li>
-			<li ng-click="" ><a href="#" ng-bind="boss.click2.suboption[2]"></a> </li>
-			<li ng-click="" ><a href="#" ng-bind="boss.click2.suboption[3]"></a> </li>
-		</ul>
-		
-		<ul ng-show="boss.isPressed3">
-			<li  ng-click="" ><a href="#" ng-bind="boss.click3.suboption[0]"></a> </li>
-			<li  ng-click="" ><a href="#" ng-bind="boss.click3.suboption[1]"></a> </li>
-		</ul>
-		
-		<ul ng-show="boss.isPressed4">
-			<li  ng-click="" >
-			<a href="#" ng-bind="boss.click4.suboption[0]"></a> </li>
-			<li  ng-click="" >
-			<a href="#" ng-bind="boss.click4.suboption[1]"></a> </li>
-		</ul>
-		<ul ng-show="boss.isPressed5" >
-			<li  ng-click="" >
-			<a href="#" ng-bind="boss.click5.suboption[0]"></a> </li>
-		</ul> -->
-	</nav>
-	<section>
-		<article ng-class="{bodyblue:boss.isPressed1}">
-			<!-- <h1 ng-show="boss.isPressed1" ng-bind="boss.click1.header" > </h1> -->
-			<p ng-show="boss.isPressed1" style="text-align: center;">
-
-				&#128568; These games are in development and are not intended to cause any harm.
-				</p>
-				<ul ng-show="boss.isPressed1">
-					<li  ng-click="boss.userClick6()" ><a href="#" ng-bind="boss.click1.suboption[0]"></a>
-					<br/>				<p ng-show="boss.isPressed1"> 
-						<br/><strong>HOW TO PLAY:</strong> Press 'play' and read the question presented.then select as many of the options that make sense as part of your answer.			
-						<br/><strong>GAME DESIGN:</strong> This game is designed to help owners note their biases and clarify how their business relates to people of various age, ethnicity, gender, income, race, and sexual orientation. 
-					This project is intended to offend none, yet challenge each player to be as inclusive as possible. Questions are comprised of aggreggated lists questions multiplied by each kind of person in the database (to be expanded). Questions are randomly created by the game and presented to the player.
-					Initially, a 60-second timer appears. You can view the CSS code used to create the countdown, as well as this whole prject on github. 
-					<br/><br/><a href="#"><strong>Developers: view this project on github</strong></a>.
+	<a id="main"></a>
+			<nav>
+				<button  ng-bind="boss.click1.name" ng-click="boss.userClick1()" ></button>
+				<button  ng-bind="boss.click3.name" ng-click="boss.userClick3()" ></button>
+				<button  ng-bind="boss.click4.name" ng-click="boss.userClick4()" ></button>
+			</nav>
+			<section>
+				<article ng-class="{bodypic:boss.isPressed1}">
+					<p ng-show="boss.isPressed1" style="text-align: center;">
+						<a id="playgame"></a>
+						&#x26A0; The following  <font color="indianred">2</font> games are in progress and not intended to offend or harm.
 					</p>
+					<ul ng-show="boss.isPressed1">
+						<h1 ng-bind="boss.click1.suboption[0]"></h1>
+						<li  ng-click="boss.userClick6()" >
+							<p ng-show="boss.isPressed1"> 
+							<strong>GAME DESIGN:</strong> This game is more of a tool designed to help entreprenuers note their biases and allows them to clarify how their business should relates to people of various age, ethnicity, gender, income, race, and sexual orientation. 
+							This project is intended to offend none, yet challenge each player to be as inclusive as possible. 
+							Questions are comprised of aggreggated lists question elements that are multiplied by the number of each kind of person in the database (to be expanded). 
+							Questions are randomly created by the game and presented to the player.
+							Initially, a 60-second timer appears.
+							<br/><br/><strong>HOW TO PLAY:</strong> Press 'play' and read the question presented. Then, select as many of the options that make sense as part of your answer before pressing play again to refresh page.			
+							<br/><br/><a href="#"><strong>View/Fork this project on GitHub.</strong></a>
+							</p>
+						</li>
 						<iframe ng-show="boss.isPressed1" src="file:///C:/Users/User/Documents/GitHub/human_angle_game/dice-game.html"></iframe>			
-				
-					 </li>
-						<li  ng-click="boss.userClick7()" ><a href="#" ng-bind="boss.click1.suboption[2]"></a> 
-						<p ng-show="boss.isPressed1"><strong>HOW TO PLAY:</strong> Input a date of birth and submit form to play. 
-							<br/><strong>GAME DESIGN:</strong> This developing project currently interpolates planetery positions for people born in the US between Jan 1 1950 and Dec 31 2020.
-						This service stops short of creating an astrological natal chart, instead providing the planetery positions at the given time
-						<br/>Check out the project on github to see the ephemeris used, the logic used ot turn local time to universal time and more. 
-		
-						<br/><br/><a href="#"><strong>Developers: view this project on github</strong></a>.
-						</p>
-					
-			<iframe  ng-show="boss.isPressed1" src="file:///C:/Users/User/Documents/GitHub/inner-coordinates/newcoordinates.html"></iframe>			
-				</li>	
-				</ul>
-				
-			
-		</article>
-
-		<article ng-class="{bodyblue:!boss.isPressed3}">
-		
-			<h1 ng-show="boss.isPressed3" ng-bind="boss.click3.header" > </h1>
-			
-			<p ng-show="boss.isPressed3">
-				&#128568; 
-				TIP  &numero; 1: START FROM SCRATCH<br/>	Whether you are new to coding or not, the web-based tool Scratch is useful. 
-					<a href="https://scratch.mit.edu/users/humanangel/?humanangel">You should know about Scratch.</a>
-					Scratch presents itself as visual blocks to clearly impart the logic of coding through playful 
-					actions akin to stacking legos. This makes learning code easy and great for beginners of all ages. 
-					 For accomplished coders, Scratch presents itself as a useful tool for certain prototyping. 
-					That's how we do it. <mark>Human Angel Tech</mark>projects typically "start from Scratch."
-					<br/><a href="https://scratch.mit.edu/users/humanangel/?humanangel">Get started by playing and remixing these two remixable test games. <br/>Go ahead. Start from scratch.</a> 
+						<h1 ng-bind="boss.click1.suboption[2]"></h1>
+						<li  ng-click="boss.userClick7()" >
+						<p ng-show="boss.isPressed1">
+							<strong>GAME DESIGN:</strong> This project is designed to provide a bare astrology service, by separating the interpolations from their interpretations.
+							When prompted, the engine interpolates planetery positions for people born in the US between Jan 1 1950 and Dec 31 2020.
+							This service stops short of creating an astrological natal chart, instead providing only the planetary positions at the given time, without any meaning or inference.
+							<br/><br/><strong>HOW TO PLAY:</strong> Fill out form with birth details (month, day, year, time of birth, AM/PM and place of birth) and submit.
+							<br/><br/><a href="#"><strong>View/Fork this project on GitHub.</strong></a>
+							</p>
+						</li>
+						<iframe  ng-show="boss.isPressed1" src="file:///C:/Users/User/Documents/GitHub/inner-coordinates/newcoordinates.html"></iframe>			
+					</ul>
+				</article>
+				<article ng-show="boss.isPressed3" ng-class="{bodypic2:boss.isPressed3}">
+					<a id="learn-code"></a>
+					<p ng-show="boss.isPressed3" style="text-align: center;">
+						&#x26A0; Learning 'code' can be fun, difficult, and sometimes both. <br/> These <font color="indianred">3</font> tips should help make the process easy, fun, and free.
 					</p>
-
-
-					<p ng-show="boss.isPressed3">TIP  &numero; 2: COPY & CODE and REPEAT<br/>After having "scratched the surface", next steps involve "removing the blocks" and seeing code as a language type, of which to manipulate and make meaning. 
-						Take your Scratch remixes to the next level by using Github to "fork" (copy) two more <mark>Human Angel Tech</mark> test web apps.</p>
-			
-						<p ng-show="boss.isPressed3">TIP  &numero; 3: BOOKMARK THIS ADVICE PAGE <br/>
-you'll need an IDE some ....</a> <a id="resources"></a>	
-						</p>
+					<span class="spantip">TIP  &numero; 1: </span>
+					<h1> START FROM SCRATCH &#128568; </h1>
+					<p ng-show="boss.isPressed3">
+						<br/>	Whether you are new to coding or not, the web-based tool Scratch is useful. 
+						<a href="https://scratch.mit.edu/users/humanangel/?humanangel">You should know about Scratch.</a>
+						Scratch presents itself as visual blocks to clearly impart the logic of coding through animated drag and drop blocks. 
+						This makes learning code easy and great for beginners of all ages. 
+						For accomplished coders, Scratch presents itself as a useful tool for certain prototyping. 
+						That's how we do it. Human Angel Tech projects typically "start from Scratch."
+						<br/><a href="https://scratch.mit.edu/users/humanangel/?humanangel">Get started by playing and remixing these two remixable test games. Go ahead. Start from scratch.</a> 
+					</p>
+					<span class="spantip">TIP  &numero; 2: </span>
+					<h1>COPY & CODE ... and REPEAT 	&#128104;&#127999;&#8205;&#128187;</h1>
+					<p ng-show="boss.isPressed3">
 						
-						<p ng-show="boss.isPressed3"><a href="https://scratch.mit.edu/users/humanangel/?humanangel">Continue your learning by copying the code and making it all (reaonably) your own, on Github.</a> 
-						</p>
+						<br/>After having "scratched the surface", next steps involve "removing the blocks" and seeing code as a language type, of which to manipulate and make meaning. 
+						See how to create a countdown clock using CSS or how to create a random 'dice' like roll, by taking your Scratch remixes to the next level and <a href="#">using Github to fork (copy) games from Human Angel. </a> 					
+					</p>
+					<span class="spantip">TIP  &numero; 3: </span>
+					<h1>GET INFORMED ADVICE ... AND DEV TOOLS &#128175;</h1>
+					<p ng-show="boss.isPressed3">
+						<br/>
+						At some point you'll need development tools and resources to help you write code. Reach out to us and we can offer you plenty of solutions, based on your specfic comfort level and hardware situation.	
+					</p>
+				</article>		
+				<article >
+					<p ng-show="boss.isPressed4" style="text-align: center;">
+						<a id="cyber-tips"></a>
+						<span class="box brick">&nbsp;</span>&nbsp;Government Source
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="box orange">&nbsp;</span>&nbsp;NGO/Non-Profit Source
+						&nbsp;&nbsp;&nbsp;&nbsp;<span class="box yellow">&nbsp;</span>&nbsp;Corporate Source
+						
+					</p>
+					<span ng-show="boss.isPressed4" class="spantip">TIP  &numero; 4: </span>
+					<h2 ng-show="boss.isPressed4" ng-class="{bodypic4:boss.isPressed4}">PLENTY OF PHISH...</h2>
+					<p ng-show="boss.isPressed4">
+						<span class="box red">&nbsp;</span>	&nbsp; According to ...
+						<a href="https://www.cisa.gov/uscert/ncas/tips?humanangel">....</a>
 
-						<img  ng-show="boss.isPressed3" src="imgs/inner.png" width="125px" style="float:right; margin-left: 1%;"/>
-						<img  ng-show="boss.isPressed3" src="imgs/inner.png" width="125px" style="float:right; margin-left: 1%;"/>
-
-					<aside ng-show="boss.isPressed3"  >
-						<a href="https://scratch.mit.edu/users/humanangel/?humanangel"><img src="imgs/21-scratch.png"  width="125px" style=" margin-left: 1%;"/></a>
-					</aside>		
-				
-		</article>
-		<article ng-class="{bodyblue:!boss.isPressed4}">
-			<h1 ng-show="boss.isPressed4" ng-bind="boss.click4.header" > </h1>
-			<p ng-show="boss.isPressed4" ng-bind="boss.click4.text" ></p>
-			<aside ng-show="boss.isPressed4"  >
-		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-		</aside>
-		</article>
-		<article ng-class="{bodyblue:!boss.isPressed2}">
-			<h1 ng-show="boss.isPressed5" ng-bind="boss.click5.header" > </h1>
-			<p ng-show="boss.isPressed5" ng-bind="boss.click5.text" ></p>
-			<aside ng-show="boss.isPressed5"  >
-		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</aside>
-		</article>
-		<article   ng-class="{bodyblue:boss.isPressed6}">
-			<h1 ng-show="boss.isPressed6" ng-bind="boss.no1.header" > </h1>
-			<p ng-show="boss.isPressed6" ng-bind="boss.no1.text" ></p>
-			<aside ng-show="boss.isPressed6" ng-bind="boss.no1.asideText" >
-		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</aside>
-		</article>
-		<article   ng-class="{bodyblue:boss.isPressed7}">
-			<h1 ng-show="boss.isPressed7" ng-bind="boss.no7.header" > </h1>
-			<p ng-show="boss.isPressed7" ng-bind="boss.no7.text" ></p>
-			<aside ng-show="boss.isPressed7" ng-bind="boss.no7.asideText" >
-		Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-		</aside>
-		</article>
-	</section>
-	</section>
-<!-- END INTERACTIVE FICTION IFRAME -->
-		<!-- start additional claims -->
-		<!-- <section class="claims">	
-		  <article  class=" goldie">
-		<h1>Wanna Play a Game? </h1>
-			</article>
-			<article  class=" goldie">
-			<h3>TIP  &numero; 1: START FROM SCRATCH</h3>
-			<a href="https://scratch.mit.edu/users/humanangel/?humanangel"><img src="imgs/90-scratch.png" width="50%" style="float:right; margin-left: 1%;"/></a>
-			
-			<p>Whether you are new to coding or not, the web-based tool Scratch is useful. 
-				<a href="https://scratch.mit.edu/users/humanangel/?humanangel">You should know about Scratch.</a>
-				Scratch presents itself as visual blocks to clearly impart the logic of coding through playful 
-				actions akin to stacking legos. This makes learning code easy and great for beginners of all ages. 
-				</p>
-				<a href="https://scratch.mit.edu/users/humanangel/?humanangel"><img src="imgs/21-scratch.png" width="50%" style="float:right; margin-left: 1%;"/></a>
-				<p> For accomplished coders, Scratch presents itself as a useful tool for certain prototyping. 
-				That's how we do it.<mark>Human Angel Tech</mark>projects typically "start from Scratch."
-		</p><p><a href="https://scratch.mit.edu/users/humanangel/?humanangel">Get started by playing and remixing these two <mark>Human Angel Tech</mark>test games made for you .Go ahead. Start from scratch.</a> 
-				</p>
-			</article >  
-			<article  class=" goldie">
-			<h3>TIP  &numero; 2: COPY & CODE and REPEAT</h3>
-			
-			<img src="imgs/human-angle.png" width="50%" style="float:right; margin-left: 1%;"/>
-			
-			<p>After having "scratched the surface", next steps involve "removing the blocks" and seeing code as a language type, of which to manipulate and make meaning. 
-			Take your Scratch remixes to the next level by using Github to "fork" (copy) two more <mark>Human Angel Tech</mark> test web apps.</p>
-			<img src="imgs/inner.png" width="50%" style="float:right; margin-left: 1%;"/>
-			<p><a href="https://scratch.mit.edu/users/humanangel/?humanangel">Continue your learning by copying the code and making it all (reaonably) your own, on Github.</a> 
-			</p>
-					<a href="own_more_than_just_your_data.html" class="selection " id="own_your_Web" title="44">FORK IT ON GITHUB</a>
-			</article >  
-			<article  class=" goldie">
-			<h3>TIP  &numero; 3: BOOKMARK THIS ADVICE PAGE</h3>
-			<a id="resources"></a>	
-			
-			<p>litany of best practice resources or codepen io account...</p>
-			<p>Want to learn about the web? Try taking this <a class="resources" href="https://mva.microsoft.com/en-us/training-courses/digital-testing-fundamentals-18665?l=5xC6fYpFG_4812186284
-				">digital literacy overview</a>. Then, start with the <a class="resources" href="https://www.w3.org/standards/webdesign/htmlcss">Web Standards</a>.
-				Code with a free web editor <a class="resources" href="https://www.w3.org/Amaya/Overview.html">like amaya</a> and test your code with the <a class="resources" href="https://w3c.github.io/developers/tools/">World Wide Web Consortium validation tools</a>. Passed the test? <a class="resources" href="https://www.w3.org/QA/Tools/Icons">Get a badge</a>. 
-				Go further by making sure your website is fair to people with visual and physical impairments by <a  class="resources" href="https://www.w3.org/WAI/test-evaluate/preliminary/">checking your file's accessibility</a> or use <a class="resources" href="http://wave.webaim.org/">the WAVE tool</a> for each page. Keep your web project on your <a class="resources" href="https://www.apachefriends.org/service.html">local server</a> or launch it to a non-profit hosting service like <a class="resources" href="https://mayfirst.org/en/">Mayfirst.org</a>.
-				Learn to script your website with dynamic content using <a class="resources" href="https://www.ecma-international.org/publications/standards/Ecma-262.htm"> Ecmascript (Js) straight from the source </a> or from <a class="resources" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> Mozilla Developer's Network</a>. Gain a better understanding of <a class="resources" href="https://www.w3.org/standards/webdesign/graphics">web graphics and the standards</a> used to create, manipulate and optimize them. Brush up on your <a class="resources" href="https://howhttps.works/">knowledge of HTTPS</a> to better appreciate how the DOM, BOM and browsers work. Try some open source browsers like <a class="resources" href="https://www.mozilla.org/en-US/firefox/">Firefox</a> or <a href="https://brave.com">Brave</a>. Use a free search engine like <a class="resources" href="https://duckduckgo.com/spread "> Duck Duck Go </a> and then try measuring the perfromance of your website with analytical tools like <a class="resources" href="https://matomo.org/ "> Matamo</a>.  Of course, you'd need to store your web assets in a convenient way and <a class="resources" href="https://docs.nextcloud.com/server/16/user_manual/ "> NextCloud </a> can help, as well as <a class="resources" href="https://github.com/">Github</a>. <a class="resources" href="/contact.html"><strong>Reach out to us for a free consultation</strong></a> to learn and find what will feel right for you and your needs.
-				</p>
-			<a href="own_more_than_just_your_data.html" class="selection " id="own_your_Web" title="44">MORE RESOURCES</a>
-				
-			</article> -->
-			<!-- <article  class="half goldie">		
-
-			</article>  -->
-			<!-- <article  class="half goldie">
-			<h3>What is website ownership to you? </h3>
-			<img src="21-scratch.png" width="50%" style="float:right; margin-left: 1%;"/>
-			<p>Own more of your webspace than just your own data. Own your web host. Encode your own vision. Own your launch and stand out — within budget.</p>
-				<a href="own_more_than_just_your_data.html" class="selection white" id="own_your_Web" title="44">Find out today.</a>
-			</article > 
-			<article  class="half">
-			<h3>Your favorite websites are selling you out in secret. </h3>
-			<img src="90-scratch.png" width="50%" style="float:right; margin-left: 1%;"/>
-			<p>While you keep your eyes on social media channels those same channels &ndash; and their friends  &ndash; may be keeping their eyes on you.</p>
-			<a href="social_media_sins_corporate_crimes.html" class="selection" id="custom_web" title="44">Protect yourself.</a>
-			</article >
-			<article  class="half goldie">
-			<h3>How SMART is your code? </h3>
-			<img src="21-scratch.png" width="50%" style="float:right; margin-left: 1%;"/>
-			<p>Having a website that is SMART is as simple as keeping your visitors happy. Yet, not every webspace does this well. Is your website SMART?</p>
-				<a href="smart_websites.html" class="selection white" id="am_i_smart" title="44">Find out today.</a>
-			</article > 
-			<article  class="half "> 
-			<h3>Is your website MEAN?  </h3>
-			<img src="21-scratch.png" width="50%" style="float:right; margin-left: 1%;"/>
-			<p>A website that is MEAN loads slowly and buries its rank within search engines - Two big problems for any website. Is your website MEAN? </p>
-			<a href="mean_websites.html" class="selection" id="am_i_mean" title="is my website MEAN?">Find out today.</a></article >
-			<article  class="half goldie"> <h3>Find out how high is your web IQ.</h3>
-			<p>Take this friendly challenge to test and grow your web savviness.</p>
-				<a href="web_iq.html" class="selection " id="take_quiz" title="44">Try this challenge.</a></article >  
-			-->
-		</section> 
+						CISA... <br/>
+						More than a quarter of a million phishing attacks are reported worldwide. Scratch presents itself as visual blocks to clearly impart the logic of coding through animated drag and drop blocks. 
+						This makes learning code easy and great for beginners of all ages. 
+						For accomplished coders, Scratch presents itself as a useful tool for certain prototyping. 
+						That's how we do it. Human Angel Tech projects typically "start from Scratch."
+						<br/><br/><span class="box brick">&nbsp;</span>	&nbsp;
+						<br/><span class="box orange">&nbsp;</span>	&nbsp;
+						<br/><span class="box gray">&nbsp;</span>	&nbsp;
+						<br/><span class="box gray">&nbsp;</span>	&nbsp;<a href="https://www.cisa.gov/sites/default/files/publications/Phishing%20General%20Security%20Postcard_6.24.2021_508cV2.pdf">Phishing Report Card</a> 
+						<br/> <br/> <strong> <a href="#contact">Reach out to us for more help.</a></strong>
+					</p>
+					<span ng-show="boss.isPressed4" class="spantip">TIP  &numero; 5: </span>
+					<h2 ng-show="boss.isPressed4">KEEP CRACKERS OUT!</h2>
+					<p ng-show="boss.isPressed4">
+					 Did you know that the <a href="#">most common password is <code>12345</code> even in 2022?</a> 
+						System policy aside... weak password and password enforcement allows <span class="explain">crackers (those who would maliccously attempt to crack your password the way a bank burglar would crack a safe)</span> easy access to your data.
+						But, that doesn't have to be so. There are ways you can protect yourself. Create a pssword at leaset 13 characters long. 
+						<br/>
+						<br/><span class="box brick">&nbsp;</span>	&nbsp;
+						<br/><span class="box orange">&nbsp;</span>	&nbsp;
+						<br/><span class="box gray">&nbsp;</span>	&nbsp;
+						<br/><span class="box gray">&nbsp;</span>	&nbsp;
+						<br/> <br/> <strong><a href="#contact">Reach out to us for more help.</a></strong> 
+					</p>
+					<span ng-show="boss.isPressed4" class="spantip">TIP  &numero; 6: </span>
+					<h2 ng-show="boss.isPressed4">PRACTICE INFO SECURITY </h2>
+					<p ng-show="boss.isPressed4">
+						Securing your information on your devices may seem duanting but can be easy, and free, 
+						thanks to some of these resources.
+						<br/><br/>
+						<span class="box brick">&nbsp;</span>	&nbsp; https://nvlpubs.nist.gov/nistpubs/ir/2016/NIST.IR.7621r1.pdf <br/>				
+						<span class="box orange">&nbsp;</span>	&nbsp; https://thedigitalstandard.org/<br/>
+						<span class="box orange">&nbsp;</span>	&nbsp; https://digital-lab.consumerreports.org/security-planner/<br/>
+						<span class="box brick">&nbsp;</span>	&nbsp; https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-15.pdf
+						<br/> <br/>  
+						<strong><a href="#contact">Reach out to us for more help.</a></strong>	
+					</p>
+				</article>					
+			</section>
+		</section>
+<!-- END INTERACTIVE IFRAME -->
 <!--8--><footer>
-	<h1 style="text-align: center"> Reach out to build your thing in &le; 9 steps.
-	</h1>
-	<a id="contact"></a>
-
-	<form class="reach-out2" action="https://getform.io/f/735d9296-b515-4021-b280-a98b2d97083e" method="POST" target="_blank">
-		<fieldset class="fs2">NAME
-		<label> <span class="field4"> &#128568; &nbsp;</span><input type="text" name="name" placeholder="Please enter your name in this field." required></label>
-		</fieldset>
-		<fieldset class="fs2">EMAIL
-		<label><span class="field4"> &#128232; &nbsp;</span><input type="email" name="email" placeholder="Please enter your email address in this field." required></label>
-	</fieldset>
-	<fieldset class="fs2">PHONE
-		<label><span class="field4"> &#128241; &nbsp;</span><input type="number" name="phone"   placeholder="Please enter your phone number in this field." required></label>
-	</fieldset>
-	<fieldset class="fs2"> WORDS
-		<label><span class="field4"> &#128483;&nbsp;</span><input type="text" name="textarea" placeholder="Add any comment, question or message in this field."></label>
-		<button id="fsend"type="submit"  >SEND &#128175;</button>
-	</fieldset>
-	</form>  
-	<hr/>
-			<div id="footer_image" class="desktop"> 
-	
-		</div>
-			<!-- <h3 class="accordion">Human Angel Tech DIY Resources</h3> -->
+			<h1 style="text-align: center"> Contact Human Angel Tech</h1>
+			<a id="contact"></a>
+			<form class="reach-out2" action="https://getform.io/f/735d9296-b515-4021-b280-a98b2d97083e" method="POST" target="_blank">
+				<fieldset class="fs2">NAME
+					<label> <span class="field4">  <br/></span><input type="text" name="name" placeholder="Please enter your name in this field." required></label>
+				</fieldset>
+				<fieldset class="fs2">EMAIL
+					<label><span class="field4">  <br/></span><input type="email" name="email" placeholder="Please enter your email address in this field." required></label>
+				</fieldset>
+				<fieldset class="fs2">PHONE
+					<label><span class="field4">  <br/></span><input type="number" name="phone"   placeholder="Please enter your phone number in this field." required></label>
+				</fieldset>
+				<fieldset class="fs2"> WORDS
+					<label><span class="field4">  <br/></span><input type="text" name="textarea" placeholder="Add any comment, question or message in this field."></label>
+					<button id="fsend"type="submit"  >SEND </button>
+				</fieldset>
+			</form>  
 			<div class="panel" id ="footer_diy_resources"> 
-				<a id="about"></a>
-		<h4>About <br class="break"/> Human Angel Tech </h4>
-		<p title=" message to web viewers"> Human Angel Technologies is a benefit corporation whose mandate is to prioritize the public good in all that we do &mdash; the custom websites and web applications that we build and the knowledge transfer of web languages and best practices we share to empower people using the web. </p>
-
-		<p>
-		<a class="foot-links" href="policy.html">Privacy Policy</a>
-		</p>
-		</div>
-			<div id="footer_about" class="desktop"> 
-
-
-		<p> Website by David Kene <br/>Technologies used:<br/>HTML 5, CSS 3, Ecmascript, 
-		Expression Engine, Adobe Photoshop, Adobe Illustrator, TextWrangler<br/>
-		Chunkfive font by the League of Moveable Type <br/>Fira Sans by Mozilla
-		</p>
-			<a href="https://validator.w3.org/check?uri=referer"><img
-				src="https://www.w3.org/Icons/valid-html401"
-				alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+				<a id="about"></a><h4>About  Human Angel Tech </h4>
+				<p title=" message to web viewers"> Human Angel Technologies is a benefit corporation whose mandate is to prioritize the public good in all that we do &mdash; the custom websites and web applications that we build and the knowledge transfer of web languages and best practices we share to empower people using the web. </p>
+				<p><a href="#" title="...">✊🏿</a> Copyright  &#169; 2019–2022 Human Angel Inc.</span>
+					<a class="foot-links" href="policy.html">Privacy Policy</a> &nbsp; 646-922-2132 &nbsp;<a href="">info[at]numanAngel,tech</a> 
+				</p>
+				<p> Website by David Kene </p>
+				<a href="https://validator.w3.org/check?uri=referer"><img src="https://www.w3.org/Icons/valid-html401" alt="Valid XHTML 1.0!" height="31" width="88" /></a>
 				<a class="foot-links" href="https://twitter.com/HumanAngelTech">Twitter</a>
-				&nbsp; <a class="foot-links" href="  https://www.facebook.com/Human-Angel-Tech-1022964574758682/?modal=admin_todo_tour
-				">Facebook</a>
+				<a class="foot-links" href="  https://www.facebook.com/Human-Angel-Tech-1022964574758682/?modal=admin_todo_tour">Facebook</a>
+				<br/><br/>
 			</div>
 			
-		</footer>
+			
+		</footer> <br/><br/><br/> 
 <!-- END FOOTER -->
-		<br/>
-
-        <script>
-      glossary =
-        [
-
-            a=["Apple: aaa","Availability: sss"],
-            b= ["bit","byte","binary"],
-            c= ["cache","cpu","codepen.io","CISA"],
-            d= ["data","drbble"],
-            e= ["ecmascriptaka javascript","etf","eeic"],
-            f= ["format","fetch","fftfreedome foundation..."],
-            g= ["get","gpu","google"],
-            h= ["hadoop","hash","hexadecimal"],
-            i= ["internetinternetwork","iframe"],
-            j= ["json","javascript"],
-            k= ["kilo","kerberos"],
-            l= ["link","LAN","..."],
-            m= ["Microsoft","Machine Learning","MayFirst.org"],
-            n= ["Networking","Nintendo","..."],
-            o= ["OS","OSIopen software","..."],
-            p= ["pentium","programmer","PCAn abbreviation of any personal computer. Sometimes is mistaken as only Windows-based."],
-            q= ["queue","QTa format..."],
-            r= ["rsaa hash type","relative path"],
-            s= ["SANDISK","system architecture"],
-            t= ["Twilio","terminal","Transportthe x/x layer in the Application Layer/OSI model respectively.","TCP/IP"],
-            u= ["UBUNTU","UTF-8","Unity"],
-            v= ["Vimeo","VOIP","..."],
-            w= ["WAN","","OSIopen software","..."],
-            x= ["Xerox","...."],
-            y= [".....",".......a format..."],
-            z= ["zeta...","zoom"]
-        ]
-        
-      
-
-function scripT() {
-
-
-//        g_ = glossary.length;g_select = g_[Math.floor(Math.random() * (g_.length + 1))];
-gterm = document.getElementById('glossary');
-        gterm.innerHTML = glossary[Math.floor(Math.random()*26)][Math.floor(Math.random()*2)]    
-
-        }
-        </script>
-		<script type="text/javascript">
-		var dD = window.screenY;
-		var x = document.getElementById("p1");
-		if (dD >= 152 +"px") 
-		{ x.style.display = "block";}
-		else { window.scrollTo(0, 700)}
-		</script>
 	</body>
 </html>
