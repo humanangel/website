@@ -13,7 +13,7 @@ body {
     background-color: rgba(255, 255, 255, 0.932);
     margin: 0%;
     /* filter:invert(); */
-    color: rgba(80,80,80,1);
+    color: rgba(30,30,30,1);
     font-size: 16px;
 font-family: sans-serif;
 /*NIGHT VISION*/ opacity:.67;
@@ -27,14 +27,38 @@ font-family: sans-serif;
     left: 120px;
     z-index: 300;
 }
-svg {transform: scale(.5);}
+
+@keyframes swirly {
+    0% {fill: gray}
+    10% {fill:firebrick}
+    20% {fill:red}
+    30% {fill:orangered}
+    40% {fill:orange}
+    50% {fill:gold}
+    60% {fill: yellow}
+    70% {fill:yellowgreen}
+    80% {fill:forestgreen}
+    85% {fill:rebeccapurple}
+    90% {fill:royalblue}
+    100% {fill:violet}
+}
+svg {transform: scale(.5);    }
+    /* animation-name: swirly;
+    animation-duration:  10s; */
+    /* animation-iteration-count:infinite; */
+    /* animation-direction: alternate-reverse;} */
 .path1 {fill:white}
 .path2 {fill:white}
-.path3 {fill: gold; text-shadow: 1px 1px 3px red;}
+.path3 {fill: gray; 
+    animation-name: swirly;
+    animation-duration:  20s;
+    animation-iteration-count:1;
+    animation-direction: alternate-reverse;
+}
 .human-angel-logo > img {width: 100%;
 /*NIGHT VISION*/
 /* filter:invert(); */
-opacity:1;
+
 }
 
 .glossary {
@@ -45,7 +69,7 @@ opacity:1;
 #glossary {display: inline; color: indianred}
 .legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px; font-family: sans-serif;    z-index: 200;}
 
-mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px;}
+mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;}
      #skip-ada {
     position: relative;
     top: 10px;
@@ -55,14 +79,14 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     height: 15px;
     text-align: center;
     padding: 1%;
-    background: linear-gradient( to right, gold ,transparent);
+    background: linear-gradient( to right, greenyellow ,transparent);
     overflow: hidden;
     margin: 1% auto;
 }
 
 #skip-ada a {  color: black;}
 .topnav {
-    background-color: gold;
+    background-color: greenyellow;
     text-align: right;
     right: 0px;
     bottom: 0px;
@@ -102,14 +126,14 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
         height: 1px;
         background: red;
         left: 1%;
-        top: 1%;
+        top: -1%;
     }
     12% {
         width: 100px;
         height: 1px;
         background: red;
         left: 50%;
-        top: 1%;
+        top: -1%;
     }
     24% {
        
@@ -117,23 +141,23 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
         height: 1px;
         background:  orange;
         left: 99%;
-        top: 1%;
+        top: -1%;
     }
     25% {
         width: 1px;
         height: 1px;
         background:  orange;
         left: 99%;
-        top: 1%;
+        top: -1%;
     }
     26% {
         width: 1px;
         height: 1px;
         background:  orange;
         left: 98%;
-        top: 1%;
+        top: -1%;
     }
-    37% {
+    /* 37% {
        width:1px;
         height: 100px;
         background: orange;
@@ -153,36 +177,36 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
         background:  yellow;
         left: 98%;
         top: 98%;
-    }
+    } */
     51% {
         width:1px;
         height: 1px;
         background:  yellow;
         left: 98%;
-        top: 98%;
+        top: 101%;
     }
     62% {
         width: 100px;
         height: 1px;
         background: yellow;
         left: 50%;
-        top: 98%;
+        top: 101%;
     }
     74% {
         width: 1px;
         height: 1px;
         background:  green;
         left: 1%;
-        top: 98%;
+        top: 101%;
     }
     75% {
         width: 1px;
         height: 1px;
         background:  green;
         left: 1%;
-        top: 98%;
+        top: 101%;
     }
-    76% {
+    /* 76% {
         width: 1px;
         height: 1px;
         background:  green;
@@ -209,12 +233,12 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
         background: blue;
         left: 0%;
         top: 1%;
-        }
+        } */
     }
 @keyframes animate-scroll {
     0% {background-position: 0px 100%;    filter:saturate(0)  ;}
-
-    100% {background-position: 0px 0px ; filter:saturate(50);}
+    70% { filter:saturate(50) grayscale(1);}
+    100% {background-position: 0px 0px ; filter:saturate(0) grayscale(1);}
     }
 #heade {
     width: 100%;
@@ -289,7 +313,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     /* filter:saturate(0); */
 }
 .happy-work{
-    /* filter:grayscale(1);  */
+    filter:grayscale(1); 
     width: auto;
     padding: 0%;
     margin: 0%;
@@ -299,7 +323,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     opacity:1;
     background-image: url('../imgs/happy-flip.jpg' );
     animation-name: animate-scroll;
-    animation-duration: 15s;
+    animation-duration: 25s;
     animation-delay: 0s;
     background-origin: 100% 100%;
     background-repeat: no-repeat;
@@ -311,8 +335,8 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 .job {
     display: block;
     position: absolute;
-    top: 45px;
-    left:260px;
+    top: -5px;
+    left:220px;
     width:auto;
     color: white;
     opacity: 1;
@@ -324,7 +348,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(24deg);
+    transform: rotate(0deg);
     font-family: helvetica;
     z-index: 1000;
 }
@@ -332,8 +356,8 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 .do {
     display: block;
     position: absolute;
-    top: 32px;
-    left:213px;
+    top: 12px;
+    left:221px;
     width:auto;
     color: white;
     opacity: 1;
@@ -345,7 +369,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(11deg);
+    transform: rotate(0deg);
     font-family: helvetica;
     z-index: 1000;
 }
@@ -353,8 +377,8 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 .plya {
     display: block;
     position: absolute;
-    top: 47px;
-    left:213px;
+    top: 27px;
+    left:221px;
     width:auto;
     color: white;
     opacity: 1;
@@ -366,7 +390,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(-10deg);
+    transform: rotate(0deg);
     font-family: helvetica;
     z-index: 1000;
 }
@@ -374,8 +398,8 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 .earnl {
     display: block;
     position: absolute;
-    top: 62px;
-    left:213px;
+    top: 43px;
+    left:221px;
     width:auto;
     color: white;
     opacity: 1;
@@ -387,7 +411,7 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(-28deg);
+    transform: rotate(0deg);
     font-family: helvetica;
     z-index: 1000;
 }
@@ -416,11 +440,11 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 .full {
     width: 98%;
     padding: 1%;
-    margin: 0 auto;
+    margin: 5px auto;
     height: 115px;
     color: ghostwhite;
-    background: linear-gradient( to right, gold ,transparent);
-    background: url('../imgs/happy-flip.jpg') no-repeat 0 10% ;
+    background: linear-gradient( to right, greenyellow ,transparent);
+    /* background: url('../imgs/happy-flip.jpg') no-repeat 0 10% ; */
     background-size: cover;
     background-blend-mode:color-burn;
     position: relative;
@@ -432,13 +456,13 @@ mark { background: rgba(218, 165, 32, 0.3863); padding: 5px; border-radius: 15px
 #ideate {position: absolute; color:rgba(0,0,0,.9)}
 
 .special {
-    font-size: 8rem;
+    font-size: 7rem;
     color: rgba(255, 255, 255, 0.4713);
     position: relative;
-    top: -24rem;
+    top: -21rem;
     margin: 0px;
     display: inline;
-    line-height: 80px;
+    line-height: 57px;
     font-weight: bolder;
     text-transform: uppercase;
     left: 30px;
@@ -562,16 +586,16 @@ button {
     float: left;
     /* margin-left: 10px; */
     background: transparent;
-    color:gold;
+    color:greenyellow;
     text-shadow: 0px 0px 2px greenyellow;
     font-family: helvetica;
     font-size: 20px;
     height:auto;
-    /* text-decoration: underline greenyellow; */
+    text-decoration: 2px underline goldenrod;
     }
-    .bodywhite 	{background: rgba(255,255,255,.65)}
-    .bodypic {background: rgba(255,25,255,.128);border-radius: 25px;}
-    .bodypic2 {background: rgba(95,95,95,.128);border-radius: 25px;}
+    .bodywhite 	{background: rgba(255,255,255,1)}
+    .bodypic {background: rgba(255,255,255,1);border-radius: 25px;}
+    .bodypic2 {background: rgba(255,255,255,1);border-radius: 25px;}
     .bodypic4 {color: black;}
     .box {width: 10px; height:10px;display: inline-block;
         border-radius: 10px;}
@@ -580,24 +604,24 @@ button {
     .orange {background: moccasin}
     .brick {background: indianred}
     article > h1 { width: 100%; float:left; display: block; margin: 0 auto; font-size: 24px; font-family: impact; text-transform:uppercase; color:indianred;}
-    article > p  { width:  50%; margin: 0 auto; padding: 1%; display: block;  font-size: 16px; font-family: georgia; color: grey;}
-    article > aside {width: 28%; margin: 0; padding: 1%;display: block; float: left; font-size: 12px;  color: black; }
-    article > ul 		{background: rgba(0,0,0,0);padding:1px; margin:1px auto;width:auto; display: block;  border:0px solid black; position: relative;top:5px;}
-    article > ul > li {list-style-type:none;display: block; padding: 1px; width: 50%; margin: 0% auto;}
+    article > p  {line-height: 1.5; width:  50%; margin: 0 auto; padding: 1%; display: block;  font-size: 16px; font-family: georgia; color: rgba(30,30,30,1);}
+    article > aside {line-height: 1.5;width: 28%; margin: 0; padding: 1%;display: block; float: left; font-size: 12px;  color: rgba(30,30,30,1); }
+    article > ul 		{background: rgba(0,0,0,0);padding:1px; margin:1px auto;width:auto; display: block;  border:0px solid rgba(30,30,30,1); position: relative;top:5px;}
+    article > ul > li {line-height: 1.5;list-style-type:none;display: block; padding: 1px; width: 50%; margin: 0% auto;}
     article > ul > h1 { font-size: 2em; text-decoration: none;  margin: 3% auto 1%;  width: 54%; }
     .spantip { font-size: 1em; text-decoration: none; display: block; margin: 3% auto -10px;  width: 60%; }
     .ha-iframe  article >  h1 { font-size: 2em; text-decoration: none;
-        margin: 1% 20% 1%; color:rgba(30, 30, 30, 0.87);  width: 54%; }
+        margin: 1% 20% 1%; color:rgba(30,30,30,1);  width: 54%; }
     .ha-iframe  article >  h2 { font-size: 2em; text-decoration: none;
-            margin: 1% 20% 1%; color:rgba(30, 30, 30, 0.87);  width: 54%; }
-            
+            margin: 1% 20% 1%; color:rgba(30, 30, 30, 1);  width: 54%; }
+  
 footer {
     display: flow-root;
     background: black; 
     background: url('../imgs/happy-flip.jpg');
     background-size: 100%;
-    color: white;
-    filter:grayscale(.8);
+    color: brown;
+    filter:saturate(0) invert();
     width: 100%}
 
 
@@ -606,6 +630,7 @@ fieldset {padding: 5px;
     margin: auto;
     width: 50%;
     font-size: 1em;
+    position: relative;
 }
 
 fieldset > label > input{
@@ -615,7 +640,14 @@ border-radius: 9px;
 border: none;
 width: 88%;
 }
-
+.sidename {position:absolute; 
+    /* transform:rotate(-90deg);   */
+    top: 20%;
+    letter-spacing: 6px;
+    left: 2%;
+    font-weight: bolder;
+    opacity:.5;
+  } 
 #fsend {
     text-transform: uppercase;
     padding: 3%;
@@ -630,7 +662,8 @@ width: 88%;
     font-family: helvetica;
     font-size: 1em;
     height:auto;
-    /* filter:invert(); */
+    text-decoration:none;
+    /* filter:saturate(1) brightness(22); */
     }
 
 #footer_diy_resources {
