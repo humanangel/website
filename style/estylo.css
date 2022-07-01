@@ -647,6 +647,7 @@ width: 88%;
     left: 2%;
     font-weight: bolder;
     opacity:.5;
+    font-size: 11px;
   } 
 #fsend {
     text-transform: uppercase;
@@ -657,12 +658,13 @@ width: 88%;
     border: none;
     display: block;
  box-shadow: 0px 1px 3px white;
-    background: indianred;
+    background: black;
     color: white;
     font-family: helvetica;
     font-size: 1em;
     height:auto;
     text-decoration:none;
+    filter:grayscale(0);
     /* filter:saturate(1) brightness(22); */
     }
 
