@@ -1,4 +1,4 @@
-*{font-family: sans-serif !important;}
+*{font-family: helvetica, sans-serif !important;}
 html {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -9,14 +9,11 @@ html {
     padding: 0%;
     }
 body {
-/*NIGHT VISION*/
     background-color: rgba(255, 255, 255, 0.932);
     margin: 0%;
-    /* filter:invert(); */
     color: rgba(30,30,30,1);
     font-size: 16px;
-font-family: sans-serif;
-/*NIGHT VISION*/ opacity:.67;
+/*NIGHT VISION*/ opacity:.8;
 }
 
 .human-angel-logo {
@@ -43,10 +40,6 @@ font-family: sans-serif;
     100% {fill:violet}
 }
 svg {transform: scale(.5);    }
-    /* animation-name: swirly;
-    animation-duration:  10s; */
-    /* animation-iteration-count:infinite; */
-    /* animation-direction: alternate-reverse;} */
 .path1 {fill:white}
 .path2 {fill:white}
 .path3 {fill: gray; 
@@ -55,19 +48,13 @@ svg {transform: scale(.5);    }
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
 }
-.human-angel-logo > img {width: 100%;
-/*NIGHT VISION*/
-/* filter:invert(); */
-
-}
-
 .glossary {
-    position:absolute; background: transparent; top: 1%; float: left; left:1%;  color: slategrey; font-size: 11px; font-family: sans-serif; 
+    position:absolute; background: transparent; top: 1%; float: left; left:1%;  color: slategrey; font-size: 11px; 
     font-weight: bold;
     text-transform: uppercase;  
     }
 #glossary {display: inline; color: indianred}
-.legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px; font-family: sans-serif;    z-index: 200;}
+.legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px;  z-index: 200;}
 
 mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;}
      #skip-ada {
@@ -104,7 +91,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     text-decoration: none;
     font-size: 12px;
     font-weight:bold;
-    font-family: sans-serif;
     text-transform: uppercase;
 }
 .topnav a:hover {
@@ -157,27 +143,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
         left: 98%;
         top: -1%;
     }
-    /* 37% {
-       width:1px;
-        height: 100px;
-        background: orange;
-        left: 98%;
-        top: 50%;
-    }
-    49% {
-        width:1px;
-        height: 1px;
-        background:  yellow;
-        left: 98%;
-        top: 98%;
-    }
-    50% {
-        width:1px;
-        height: 1px;
-        background:  yellow;
-        left: 98%;
-        top: 98%;
-    } */
     51% {
         width:1px;
         height: 1px;
@@ -206,34 +171,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
         left: 1%;
         top: 101%;
     }
-    /* 76% {
-        width: 1px;
-        height: 1px;
-        background:  green;
-        left: 1%;
-        top: 99%;
-    }
-    87% {
-        width: 1px;
-        height: 100px;
-        background: green;
-        left: 1%;
-        top: 50%;
-    }
-    99% {
-        width: 1px;
-        height: 1px;
-        background: blue;
-        left: 1%;
-        top: 1%;
-        }
-    100% {
-        width: 1px;
-        height: 1px;
-        background: blue;
-        left: 0%;
-        top: 1%;
-        } */
     }
 @keyframes animate-scroll {
     0% {background-position: 0px 100%;    filter:saturate(0)  ;}
@@ -310,7 +247,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     height: 100%;
     display: block;
     position: relative;
-    /* filter:saturate(0); */
 }
 .happy-work{
     filter:grayscale(1); 
@@ -320,7 +256,7 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     height: 100%;
     display: block;
     position: relative;
-    opacity:1;
+    opacity:.61;
     background-image: url('../imgs/happy-flip.jpg' );
     animation-name: animate-scroll;
     animation-duration: 25s;
@@ -339,7 +275,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     left:220px;
     width:auto;
     color: white;
-    opacity: 1;
     font-size: 13px;
     font-weight: bold;
     padding-top: 10px;
@@ -349,7 +284,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     transform: rotate(0deg);
-    font-family: helvetica;
     z-index: 1000;
 }
 
@@ -360,7 +294,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     left:221px;
     width:auto;
     color: white;
-    opacity: 1;
     font-size: 13px;
     font-weight: bold;
     padding-top: 10px;
@@ -370,7 +303,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     transform: rotate(0deg);
-    font-family: helvetica;
     z-index: 1000;
 }
 
@@ -381,7 +313,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     left:221px;
     width:auto;
     color: white;
-    opacity: 1;
     font-size: 13px;
     font-weight: bold;
     padding-top: 10px;
@@ -391,7 +322,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     transform: rotate(0deg);
-    font-family: helvetica;
     z-index: 1000;
 }
 
@@ -402,7 +332,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     left:221px;
     width:auto;
     color: white;
-    opacity: 1;
     font-size: 13px;
     font-weight: bold;
     padding-top: 10px;
@@ -411,8 +340,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(0deg);
-    font-family: helvetica;
     z-index: 1000;
 }
 
@@ -423,7 +350,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     left:265px;
     width:auto;
     color: white;
-    opacity: 1;
     font-size: 13px;
     font-weight: bold;
     padding-top: 10px;
@@ -432,8 +358,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     border-top: 0px solid white;
     letter-spacing: 3px;
     text-transform: uppercase;
-    transform: rotate(0deg);
-    font-family: helvetica;
     z-index: 1000;
 }
 
@@ -444,12 +368,9 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     height: 115px;
     color: ghostwhite;
     background: linear-gradient( to right, greenyellow ,transparent);
-    /* background: url('../imgs/happy-flip.jpg') no-repeat 0 10% ; */
     background-size: cover;
     background-blend-mode:color-burn;
     position: relative;
-    
-    /* filter:invert(); */
     top:5px;
     margin-bottom: 30px;
 }
@@ -486,7 +407,6 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     width: 50%;
     position: relative;
     float: right;
-    /* top: 20px; */
     left: -60px;
     display: block;
     color:rgba(30, 30, 30, 0.87);
@@ -520,78 +440,19 @@ section	{margin: 0px auto; display: block; width: 98%;padding:1%;  height: auto;
     width: 70%;
     margin: 3% auto;
 }
-
-.flavors {
-    display: block;
-    width: 60%;
-    margin: -3% auto 2%;
-    /* background: linear-gradient( rgba(50,50,50,.9), black); */
-    text-align: center;
-    position: relative;
-    height: auto;
-    padding: 1%;
-    top: 2rem;
-    /* box-shadow: 0px 2px 2px mediumseagreen; */
- /* background: indianred; */
- filter: grayscale();
-    z-index:0;
-}
-
-.flavors  h6 {
-    font-size: 4.5rem;
-    text-transform: uppercase;
-    margin: 0;
-    position: relative;
-    /* width: 20%;  */
-    float: left;
-    display: block;
-    width: 35%;
-    font-size: 3.5em;
-    padding: 2%;
-}
-.flavors span  {
-    /* font-size: 14rem; */
-    margin: 0;
-    text-transform: uppercase;
-    height: auto;
-    font-family: sans-serif;
-    /* background: mediumseagreen; */
-    padding: 2%;
-    color: saddlebrown;
-    font-size: 9em;
-    letter-spacing: 4px;
-    width: 98%;
-    padding: 1%;
-    background: transparent;
-    font-weight: 900;
-    position: relative;
-    }
-.flavors p {
-font-size: 1em;
-display: block;
-width: auto;
-float: left;
-margin-left: 2%;
-text-align: left;
-}
-
 button {
     text-transform: uppercase;
     padding: 1%;
     font-weight: 900;
     margin: 0px auto 10px;
     width: 33%;
-    border: none;
     display: block;
     float: left;
-    /* margin-left: 10px; */
-    background: transparent;
-    color:greenyellow;
+    background: greenyellow;
+    color:black;
     text-shadow: 0px 0px 2px greenyellow;
-    font-family: helvetica;
     font-size: 20px;
     height:auto;
-    text-decoration: 2px underline goldenrod;
     }
     .bodywhite 	{background: rgba(255,255,255,1)}
     .bodypic {background: rgba(255,255,255,1);border-radius: 25px;}
@@ -604,7 +465,7 @@ button {
     .orange {background: moccasin}
     .brick {background: indianred}
     article > h1 { width: 100%; float:left; display: block; margin: 0 auto; font-size: 24px; font-family: impact; text-transform:uppercase; color:indianred;}
-    article > p  {line-height: 1.5; width:  50%; margin: 0 auto; padding: 1%; display: block;  font-size: 16px; font-family: georgia; color: rgba(30,30,30,1);}
+    article > p  {line-height: 1.5; width:  50%; margin: 0 auto; padding: 1%; display: block;  font-size: 16px;  color: rgba(30,30,30,1);}
     article > aside {line-height: 1.5;width: 28%; margin: 0; padding: 1%;display: block; float: left; font-size: 12px;  color: rgba(30,30,30,1); }
     article > ul 		{background: rgba(0,0,0,0);padding:1px; margin:1px auto;width:auto; display: block;  border:0px solid rgba(30,30,30,1); position: relative;top:5px;}
     article > ul > li {line-height: 1.5;list-style-type:none;display: block; padding: 1px; width: 50%; margin: 0% auto;}
@@ -622,9 +483,8 @@ footer {
     background-size: 100%;
     color: brown;
     filter:saturate(0) invert();
-    width: 100%}
-
-
+    width: 100%
+    }
 fieldset {padding: 5px;
     border: none;
     margin: auto;
@@ -641,7 +501,6 @@ border: none;
 width: 88%;
 }
 .sidename {position:absolute; 
-    /* transform:rotate(-90deg);   */
     top: 20%;
     letter-spacing: 6px;
     left: 2%;
@@ -660,14 +519,11 @@ width: 88%;
  box-shadow: 0px 1px 3px white;
     background: black;
     color: white;
-    font-family: helvetica;
     font-size: 1em;
     height:auto;
     text-decoration:none;
     filter:grayscale(0);
-    /* filter:saturate(1) brightness(22); */
     }
-
 #footer_diy_resources {
     background: white;
     width: 50%;
@@ -676,7 +532,5 @@ width: 88%;
     margin: 0 auto;
     display: block;
     font-size: 11px;
-    font-family: helvetica;
-    position: relative;
-    
+    position: relative;  
 }
