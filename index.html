@@ -14,7 +14,7 @@
 			var action = angular.module('actions', []);
 			action.controller('theController', function()
 			{var self = this;
-				self.click1 ={name:'Play a game',
+				self.click1 ={name:'Play a \'game\'',
 							header:'this is the header for click1', 
 							text: 'this is the text for click1',
 							asideText:'this is the aside text for click1',
@@ -183,11 +183,11 @@
 			<span class="earnl">  &nbsp; <font color="rebeccapurple">Learn</font> <font color="firebrick">tech</font> </span>
 			<!-- <span class="hash">  &nbsp; #<font color="blue">web</font> <font color="white">help</font> </span>			 -->
 			<span class="window">
-				<span id="color1" class="colorwrap"></span>
+				<!-- <span id="color1" class="colorwrap"></span>
 				<span class="colorwrap2"></span>
 				<span class="colorwrap3"></span>
 				<span class="colorwrap4"></span>
-				<span class="colorwrap5"></span>
+				<span class="colorwrap5"></span> -->
 				<span class="happy-work"></span>
 			</span>
 		</div>
@@ -198,18 +198,19 @@
 			<article class="full">
 				<a id="main"></a><h1>Then let's build it<br/>progressively<br/>and together.</h1>
 				<p class="paddy" id="p3">
-					<mark>Human Angel Tech</mark> offers big-picture strategies and spot-on advice regarding issues ranging
+					Human Angel Tech offers big-picture strategies and spot-on advice regarding issues ranging
 					from system architecture design to information security policy implementations and industry regulatory compliance.
-				    And we always provide web help and tips.<br/> 💪#humanAngelTech 💻#weBhelp </p>
+				    And we always provide web help and tips.<br/> <mark>💪#humanAngelTech 💻#weBhelp </mark></p>
 			</article>	
 		</main>
 <!-- END MAIN MESSAGE -->
 <!--7--><section class="ha-iframe" >
 	<a id="main"></a>
-			<nav>
-				<button  ng-bind="boss.click1.name" ng-click="boss.userClick1()" ></button>
-				<button  ng-bind="boss.click3.name" ng-click="boss.userClick3()" ></button>
-				<button  ng-bind="boss.click4.name" ng-click="boss.userClick4()" ></button>
+			<nav> 
+					<button  ><span class="button-mover1"></span>	<span  ng-bind="boss.click1.name" ng-click="boss.userClick1()">  </span></button>
+						<button  ><span class="button-mover3"></span>	<span  ng-bind="boss.click3.name" ng-click="boss.userClick3()">  </span></button>
+						<button  ><span class="button-mover4"></span>	<span  ng-bind="boss.click4.name" ng-click="boss.userClick4()">  </span></button>
+			
 			</nav>
 			<section>
 				<article ng-class="{bodypic:boss.isPressed1}">
