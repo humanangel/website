@@ -165,7 +165,7 @@
     width: 100%;
     padding: 0%;
     margin: 0%;
-    height: 200px;
+    height: 235px;
     display: block;
     top:40px;
     position: relative;
@@ -173,7 +173,7 @@
     }
 
   main { margin: 8% auto 3%;position: relative}
-  mark {text-align: center; margin: 1% auto}
+  mark {text-align: center; margin: 1% auto; width: 98%}
   .sidename {position:absolute; 
         top: 29%;
         letter-spacing: 6px;
@@ -205,6 +205,21 @@
 #glossary {display: inline; color: indianred}
 .legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px;  z-index: 200;}
 
+button {
+    text-transform: uppercase;
+    padding: 5%;
+    font-weight: 900;
+    margin: 3% auto;
+    width: 88%;
+    display: block;
+    background: transparent;
+    color:black;
+    text-shadow: 0px 0px 2px ghostwhite;
+    font-size: 2rem;
+    height:auto;
+    border: none;
+    position: relative;
+    }
   }
  
 
@@ -413,7 +428,22 @@
     }
 #glossary {display: inline; color: indianred}
 .legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px;  z-index: 200;}
-
+button {
+    text-transform: uppercase;
+    padding: 3%;
+    font-weight: 900;
+    margin: 0px auto 10px;
+    width: 33%;
+    display: block;
+    float: left;
+    background: transparent;
+    color:black;
+    text-shadow: 0px 0px 2px ghostwhite;
+    font-size: 20px;
+    height:auto;
+    border: none;
+    position: relative;
+    }
     }
  
  @media screen and (min-width:1063px) {
@@ -619,6 +649,23 @@
 #glossary {display: inline; color: indianred}
 .legalnotices { position:relative; background: transparent; top: 5px; float: right; right:10px;  color: seagreen; font-size: 11px;  z-index: 200;}
 
+
+button {
+    text-transform: uppercase;
+    padding: 3%;
+    font-weight: 900;
+    margin: 0px auto 10px;
+    width: 33%;
+    display: block;
+    float: left;
+    background: transparent;
+    color:black;
+    text-shadow: 0px 0px 2px ghostwhite;
+    font-size: 20px;
+    height:auto;
+    border: none;
+    position: relative;
+    }
  }
 
 
@@ -970,22 +1017,7 @@ section	{margin: 0px auto; display: block; width: 98%;padding:1%;  height: auto;
     width: 70%;
     margin: 3% auto;
 }
-button {
-    text-transform: uppercase;
-    padding: 3%;
-    font-weight: 900;
-    margin: 0px auto 10px;
-    width: 33%;
-    display: block;
-    float: left;
-    background: transparent;
-    color:black;
-    text-shadow: 0px 0px 2px ghostwhite;
-    font-size: 20px;
-    height:auto;
-    border: none;
-    position: relative;
-    }
+
 
     button:hover  {
         color: black; 
