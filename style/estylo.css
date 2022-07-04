@@ -19,12 +19,12 @@
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
    }
-   .path 1{fill:goldenrod;}
-      .path3 {fill:goldenrod;}
-      .path4 {fill:goldenrod;}
-      .path5 {fill:goldenrod;}
-      .path6 {fill:goldenrod;}
-      .path7 {fill:goldenrod;}
+.path1 {fill:goldenrod;}
+.path3 {fill:goldenrod;}
+.path4 {fill:goldenrod;}
+.path5 {fill:goldenrod;}
+.path6 {fill:goldenrod;}
+.path7 {fill:goldenrod;}
 
 #skip-ada {
     position: relative;
