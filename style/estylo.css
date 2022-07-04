@@ -2,18 +2,17 @@
     /* * {background-color: orange !important;}     */
 .window {background: rgba(0,250,0,.26);}
     .human-angel-logo {
-        position: absolute;
-        width: 50px;
-        transform: rotate(0deg);
-        top: 60px;
-        left: 0px;
-        z-index: 300;
+        position: relative;
+    margin: 1% auto;
+        transform: scale(.3);
+        top: 15px;
+        height:30px;
     }
     svg {
-        transform: scale(.35);
+/*        transform: scale(.35);
         left: -144px;
         position: absolute;
-        top: 9px;
+        top: 9px; */
     }
 .path1 {fill:gold}
 .path2 {fill:gold}
@@ -118,20 +117,20 @@
     padding: 1%;
     margin: 5px auto;
     height: 250px;
-    background: linear-gradient( to right, gold ,transparent);
-    background-size: cover;
-    background-blend-mode:color-burn;
+   /* background: linear-gradient( to right, gold ,transparent); */
+   /* background-size: cover; */
+   /* background-blend-mode:color-burn; */
     position: relative;
     top:5px;
     margin-bottom: 15px;
 }
-#ideate {position: absolute; color:rgba(0,0,0,.9)}
+#ideate {position: absolute;top: 37px; left:3px color:rgba(0,0,0,.9)}
 
 .special {
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.4713);
     position: relative;
-    top: -11rem;
+    top: 0rem;
     margin: 0px;
     display: inline;
     line-height: 30px;
@@ -170,12 +169,13 @@
     margin: 0%;
     height: 200px;
     display: block;
-    top:60px;
+    top:40px;
     position: relative;
     border: 0px solid transparent;
     }
 
-    .sidename {position:absolute; 
+  main { margin: 8% auto 3%;}
+  .sidename {position:absolute; 
         top: 29%;
         letter-spacing: 6px;
         left: 9%;
