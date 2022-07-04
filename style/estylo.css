@@ -15,7 +15,7 @@
         position: absolute;
         top: -21px;
     }
-.path1 {fill:white}
+.path1 {fill:gold}
 .path2 {fill:white}
 .path3 {fill: red; 
     animation-name: swirly;
@@ -33,7 +33,7 @@
     height: 15px;
     text-align: right;
     padding: 1%;
-    background: linear-gradient( to right, greenyellow ,transparent);
+    background: linear-gradient( to right, gold ,transparent);
     overflow: hidden;
     margin: 1% auto 9%;
 }
