@@ -3,16 +3,14 @@
 .window {background: rgba(0,250,0,.26);}
     .human-angel-logo {
         position: relative;
-    margin: 1% auto;
+    margin: 1% auto 3%;
         transform: scale(.3);
-        top: 15px;
-        height:30px;
+        top: 35px;
+        height:60px;
+        width: 100%
     }
     svg {
-/*        transform: scale(.35);
-        left: -144px;
-        position: absolute;
-        top: 9px; */
+
     }
 .path1 {fill:gold}
 .path2 {fill:gold}
