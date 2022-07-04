@@ -13,13 +13,13 @@
         transform: scale(.35);
         left: -144px;
         position: absolute;
-        top: -21px;
+        top: 9px;
     }
 .path1 {fill:gold}
-.path2 {fill:white}
-.path3 {fill: red; 
+.path2 {fill:gold}
+.path3 {fill: gold; 
     animation-name: swirly;
-    animation-duration:  20s;
+    animation-duration:  10s;
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
 }
@@ -118,8 +118,7 @@
     padding: 1%;
     margin: 5px auto;
     height: 250px;
-    color: ghostwhite;
-    background: linear-gradient( to right, greenyellow ,transparent);
+    background: linear-gradient( to right, gold ,transparent);
     background-size: cover;
     background-blend-mode:color-burn;
     position: relative;
@@ -132,10 +131,10 @@
     font-size: 3rem;
     color: rgba(255, 255, 255, 0.4713);
     position: relative;
-    top: -12rem;
+    top: -11rem;
     margin: 0px;
     display: inline;
-    line-height: 35px;
+    line-height: 30px;
     font-weight: bolder;
     text-transform: uppercase;
     left: 5px;
@@ -160,9 +159,7 @@
   .full > p {
     width: 92%;
     position: relative;
-    /* float: right; */
-    /* left: -30px; */
-    /* top: -15px; */
+    margin: 1% auto;
     display: block;
     color:rgba(30, 30, 30, 0.87);
   }
@@ -686,7 +683,7 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
 
 #skip-ada a {  color: black;}
 .topnav {
-    background-color: greenyellow;
+    background-color: gold;
     text-align: right;
     right: 0px;
     bottom: 0px;
@@ -702,7 +699,7 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     text-align: right;
     margin: 0% 0%;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 11px;
     font-weight:bold;
     text-transform: uppercase;
 }
@@ -714,7 +711,7 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
     display: none;
 }
 .menu {
-    width: 13%;
+    width: 16%;
     margin: 1%;
     padding: 1%;
     display: inline-block;
