@@ -15,12 +15,12 @@
 .path1 {fill:goldenrod;
        animation-name: swirly;
     animation-duration:  5s;
-    animation-iteration-count:2;
+    animation-iteration-count:1;
    }
 .path2 {fill:goldenrod;
        animation-name: swirly;
     animation-duration:  5s;
-    animation-iteration-count:2;
+    animation-iteration-count:1;
     animation-direction: alternate-reverse;
    }
 .path3 {fill: goldenrod; 
@@ -29,6 +29,30 @@
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
 }
+.path4 {fill:goldenrod;
+       animation-name: swirly;
+    animation-duration:  5s;
+    animation-iteration-count:1;
+   }
+.path5 {fill:goldenrod;
+       animation-name: swirly;
+    animation-duration:  3s;
+    animation-iteration-count:1;
+    animation-direction: alternate-reverse;
+   }
+.path6 {fill: goldenrod; 
+    animation-name: swirly;
+    animation-duration:  4s;
+    animation-iteration-count:1;
+    animation-direction: alternate-reverse;
+}
+.path7 {fill: goldenrod; 
+    animation-name: swirly;
+    animation-duration:  3s;
+    animation-iteration-count:1;
+    animation-direction: alternate-reverse;
+}
+   
 
 #skip-ada {
     position: relative;
