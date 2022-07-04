@@ -1,11 +1,11 @@
 @media screen and  (max-width:768px) {
     /* * {background-color: orange !important;}     */
-.window {background: rgba(0,250,0,.26);}
+/* .window {background: rgba(0,250,0,.26);}*/
     .human-angel-logo {
         position: relative;
     margin: 1% auto 3%;
         transform: scale(.3);
-        top: 35px;
+        top: 25px;
         height:60px;
         width: 100%
     }
@@ -173,6 +173,7 @@
     }
 
   main { margin: 8% auto 3%;position: relative}
+  mark {text-align: center; margin: 1% auto}
   .sidename {position:absolute; 
         top: 29%;
         letter-spacing: 6px;
