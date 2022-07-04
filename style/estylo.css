@@ -1,5 +1,5 @@
 @media screen and  (max-width:768px) {
-    /* * {background-color: orange !important;}     */
+   
 /* .window {background: rgba(0,250,0,.26);}*/
     .human-angel-logo {
         position: relative;
@@ -12,9 +12,9 @@
     svg {
 
     }
-.path1 {fill:gold}
-.path2 {fill:gold}
-.path3 {fill: gold; 
+.path1 {fill:goldenrod}
+.path2 {fill:goldenrod}
+.path3 {fill: goldenrod; 
     animation-name: swirly;
     animation-duration:  10s;
     animation-iteration-count:1;
@@ -781,7 +781,7 @@ mark { background: rgba(238, 188, 24, 0.386); padding: 5px; border-radius: 15px;
 
 #skip-ada a {  color: black;}
 .topnav {
-    background-color: gold;
+    background-color: goldenrod;
     text-align: right;
     right: 0px;
     bottom: 0px;
