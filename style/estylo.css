@@ -23,7 +23,9 @@
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
    }
-.path3 {fill: goldenrod; 
+   .path2 path3 path4 path5 path6 path7 {fill:goldenrod;}
+   
+   /*.path3 {fill: goldenrod; 
     animation-name: swirly;
     animation-duration:  2s;
     animation-iteration-count:1;
@@ -51,7 +53,7 @@
     animation-duration:  2s;
     animation-iteration-count:1;
 }
-
+*/
    
 
 #skip-ada {
