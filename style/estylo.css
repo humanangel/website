@@ -23,7 +23,7 @@
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
    }
-   .path2 .path3 .path4 .path5 .path6 .path7 {fill:goldenrod;}
+   .path2, .path3, .path4, .path5, .path6, .path7 {fill:goldenrod;}
    
    /*.path3 {fill: goldenrod; 
     animation-name: swirly;
@@ -774,7 +774,6 @@ body {
     margin: 0%;
     color: rgba(30,30,30,1);
     font-size: 16px;
-/*NIGHT VISION*/ opacity:.8;
 }
 
 /* .human-angel-logo {
