@@ -12,49 +12,19 @@
     svg {
 
     }
-.path1 {fill:goldenrod;
-       animation-name: swirly;
-    animation-duration:  3s;
-    animation-iteration-count:1;
-   }
+
 .path2 {fill:goldenrod;
        animation-name: swirly;
     animation-duration:  2s;
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
    }
-   .path2, .path3, .path4, .path5, .path6, .path7 {fill:goldenrod;}
-   
-   /*.path3 {fill: goldenrod; 
-    animation-name: swirly;
-    animation-duration:  2s;
-    animation-iteration-count:1;
-}
-.path4 {fill:goldenrod;
-       animation-name: swirly;
-    animation-duration:  3s;
-    animation-iteration-count:1;
-  animation-direction: alternate-reverse;
-   }
-.path5 {fill:goldenrod;
-       animation-name: swirly;
-    animation-duration:  2s;
-    animation-iteration-count:1;
-  
-   }
-.path6 {fill: goldenrod; 
-    animation-name: swirly;
-    animation-duration:  2s;
-    animation-iteration-count:1;
-    animation-direction: alternate-reverse;
-}
-.path7 {fill: goldenrod; 
-    animation-name: swirly;
-    animation-duration:  2s;
-    animation-iteration-count:1;
-}
-*/
-   
+   .path 1{fill:goldenrod;}
+      .path3 {fill:goldenrod;}
+      .path4 {fill:goldenrod;}
+      .path5 {fill:goldenrod;}
+      .path6 {fill:goldenrod;}
+      .path7 {fill:goldenrod;}
 
 #skip-ada {
     position: relative;
