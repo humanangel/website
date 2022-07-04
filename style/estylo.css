@@ -14,7 +14,7 @@
     }
 .path1 {fill:goldenrod;
        animation-name: swirly;
-    animation-duration:  5s;
+    animation-duration:  3s;
     animation-iteration-count:1;
    }
 .path2 {fill:goldenrod;
@@ -30,7 +30,7 @@
 }
 .path4 {fill:goldenrod;
        animation-name: swirly;
-    animation-duration:  2s;
+    animation-duration:  3s;
     animation-iteration-count:1;
   animation-direction: alternate-reverse;
    }
