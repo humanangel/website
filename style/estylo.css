@@ -14,19 +14,18 @@
     }
 .path1 {fill:goldenrod;
        animation-name: swirly;
-    animation-duration:  2s;
+    animation-duration:  5s;
     animation-iteration-count:2;
-    animation-direction: alternate-reverse;
    }
 .path2 {fill:goldenrod;
        animation-name: swirly;
     animation-duration:  5s;
-    animation-iteration-count:1;
+    animation-iteration-count:2;
     animation-direction: alternate-reverse;
    }
 .path3 {fill: goldenrod; 
     animation-name: swirly;
-    animation-duration:  10s;
+    animation-duration:  8s;
     animation-iteration-count:1;
     animation-direction: alternate-reverse;
 }
